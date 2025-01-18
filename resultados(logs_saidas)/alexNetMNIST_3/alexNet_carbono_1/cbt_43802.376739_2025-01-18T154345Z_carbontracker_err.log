@@ -1,0 +1,6 @@
+2025-01-18 15:43:45,357 - CarbonIntensityThread - WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+2025-01-18 15:43:45,357 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 98.34824 gCO2/kWh.
+2025-01-18 15:58:45,556 - CarbonIntensityThread - WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+2025-01-18 15:58:45,556 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 98.34824 gCO2/kWh.
+2025-01-18 16:05:33,164 - MainThread - WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+2025-01-18 16:05:33,164 - MainThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 98.34824 gCO2/kWh.
