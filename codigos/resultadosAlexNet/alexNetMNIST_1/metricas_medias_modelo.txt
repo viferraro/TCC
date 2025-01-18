@@ -1,5 +1,0 @@
-Média da Acurácia: 0.9906
-Média da Precisão: 0.9907414951030061
-Média do Recall: 0.9904963444361842
-Média do F1 Score: 0.9905782308012083
-Média do Tempo de Teste: 1.8301503000000001 segundos
