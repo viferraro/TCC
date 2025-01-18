@@ -1,0 +1,899 @@
+______________________________________________________________________________________________________
+Treinando modelo 1/10
+Época 1, Perda Treino: 1.8355, Acurácia Treino: 0.4447
+Época 1, Perda Validação: 1.4468, Acurácia Validação: 0.6923
+Época 2, Perda Treino: 0.8971, Acurácia Treino: 0.7420
+Época 2, Perda Validação: 0.7147, Acurácia Validação: 0.7976
+Época 3, Perda Treino: 0.6183, Acurácia Treino: 0.8229
+Época 3, Perda Validação: 0.5405, Acurácia Validação: 0.8464
+Época 4, Perda Treino: 0.4809, Acurácia Treino: 0.8614
+Época 4, Perda Validação: 0.4334, Acurácia Validação: 0.8735
+Época 5, Perda Treino: 0.3945, Acurácia Treino: 0.8864
+Época 5, Perda Validação: 0.3664, Acurácia Validação: 0.8932
+Época 6, Perda Treino: 0.3374, Acurácia Treino: 0.9028
+Época 6, Perda Validação: 0.3225, Acurácia Validação: 0.9067
+Época 7, Perda Treino: 0.2962, Acurácia Treino: 0.9140
+Época 7, Perda Validação: 0.2934, Acurácia Validação: 0.9146
+Época 8, Perda Treino: 0.2677, Acurácia Treino: 0.9215
+Época 8, Perda Validação: 0.2557, Acurácia Validação: 0.9256
+Época 9, Perda Treino: 0.2472, Acurácia Treino: 0.9263
+Época 9, Perda Validação: 0.2359, Acurácia Validação: 0.9328
+Época 10, Perda Treino: 0.2305, Acurácia Treino: 0.9314
+Época 10, Perda Validação: 0.2317, Acurácia Validação: 0.9319
+Época 11, Perda Treino: 0.2162, Acurácia Treino: 0.9355
+Época 11, Perda Validação: 0.2529, Acurácia Validação: 0.9240
+Época 12, Perda Treino: 0.2037, Acurácia Treino: 0.9379
+Época 12, Perda Validação: 0.1956, Acurácia Validação: 0.9444
+Época 13, Perda Treino: 0.1928, Acurácia Treino: 0.9424
+Época 13, Perda Validação: 0.2054, Acurácia Validação: 0.9399
+Época 14, Perda Treino: 0.1856, Acurácia Treino: 0.9431
+Época 14, Perda Validação: 0.2010, Acurácia Validação: 0.9446
+Época 15, Perda Treino: 0.1760, Acurácia Treino: 0.9470
+Época 15, Perda Validação: 0.1746, Acurácia Validação: 0.9494
+Época 16, Perda Treino: 0.1708, Acurácia Treino: 0.9487
+Época 16, Perda Validação: 0.1740, Acurácia Validação: 0.9521
+Época 17, Perda Treino: 0.1663, Acurácia Treino: 0.9487
+Época 17, Perda Validação: 0.1677, Acurácia Validação: 0.9540
+Época 18, Perda Treino: 0.1618, Acurácia Treino: 0.9509
+Época 18, Perda Validação: 0.1675, Acurácia Validação: 0.9524
+Época 19, Perda Treino: 0.1563, Acurácia Treino: 0.9522
+Época 19, Perda Validação: 0.1621, Acurácia Validação: 0.9538
+Época 20, Perda Treino: 0.1518, Acurácia Treino: 0.9537
+Época 20, Perda Validação: 0.1772, Acurácia Validação: 0.9479
+Época 21, Perda Treino: 0.1505, Acurácia Treino: 0.9537
+Época 21, Perda Validação: 0.1691, Acurácia Validação: 0.9509
+Época 22, Perda Treino: 0.1455, Acurácia Treino: 0.9557
+Época 22, Perda Validação: 0.1562, Acurácia Validação: 0.9551
+Época 23, Perda Treino: 0.1438, Acurácia Treino: 0.9558
+Época 23, Perda Validação: 0.1587, Acurácia Validação: 0.9531
+Época 24, Perda Treino: 0.1388, Acurácia Treino: 0.9570
+Época 24, Perda Validação: 0.1511, Acurácia Validação: 0.9563
+Época 25, Perda Treino: 0.1386, Acurácia Treino: 0.9575
+Época 25, Perda Validação: 0.1584, Acurácia Validação: 0.9558
+Época 26, Perda Treino: 0.1337, Acurácia Treino: 0.9589
+Época 26, Perda Validação: 0.1633, Acurácia Validação: 0.9547
+Época 27, Perda Treino: 0.1316, Acurácia Treino: 0.9594
+Época 27, Perda Validação: 0.1396, Acurácia Validação: 0.9603
+Época 28, Perda Treino: 0.1300, Acurácia Treino: 0.9600
+Época 28, Perda Validação: 0.1483, Acurácia Validação: 0.9597
+Época 29, Perda Treino: 0.1284, Acurácia Treino: 0.9607
+Época 29, Perda Validação: 0.1378, Acurácia Validação: 0.9615
+Época 30, Perda Treino: 0.1260, Acurácia Treino: 0.9616
+Época 30, Perda Validação: 0.1347, Acurácia Validação: 0.9625
+Época 31, Perda Treino: 0.1239, Acurácia Treino: 0.9624
+Época 31, Perda Validação: 0.1597, Acurácia Validação: 0.9554
+Época 32, Perda Treino: 0.1237, Acurácia Treino: 0.9618
+Época 32, Perda Validação: 0.1377, Acurácia Validação: 0.9601
+Época 33, Perda Treino: 0.1209, Acurácia Treino: 0.9624
+Época 33, Perda Validação: 0.1348, Acurácia Validação: 0.9639
+Época 34, Perda Treino: 0.1209, Acurácia Treino: 0.9627
+Época 34, Perda Validação: 0.1534, Acurácia Validação: 0.9565
+Época 35, Perda Treino: 0.1025, Acurácia Treino: 0.9679
+Época 35, Perda Validação: 0.1199, Acurácia Validação: 0.9656
+Época 36, Perda Treino: 0.1017, Acurácia Treino: 0.9684
+Época 36, Perda Validação: 0.1193, Acurácia Validação: 0.9675
+Época 37, Perda Treino: 0.1016, Acurácia Treino: 0.9689
+Época 37, Perda Validação: 0.1180, Acurácia Validação: 0.9670
+Época 38, Perda Treino: 0.1013, Acurácia Treino: 0.9685
+Época 38, Perda Validação: 0.1196, Acurácia Validação: 0.9669
+Época 39, Perda Treino: 0.1009, Acurácia Treino: 0.9687
+Época 39, Perda Validação: 0.1206, Acurácia Validação: 0.9671
+Época 40, Perda Treino: 0.1010, Acurácia Treino: 0.9688
+Época 40, Perda Validação: 0.1186, Acurácia Validação: 0.9670
+Época 41, Perda Treino: 0.1007, Acurácia Treino: 0.9689
+Época 41, Perda Validação: 0.1173, Acurácia Validação: 0.9676
+Época 42, Perda Treino: 0.1009, Acurácia Treino: 0.9690
+Época 42, Perda Validação: 0.1165, Acurácia Validação: 0.9688
+Early stopping na época 42
+Modelo 1: Média Perda Treino: 0.1009, Média Acurácia Treino: 0.9690, Média Perda Validação: 0.1165, Média Acurácia Validação: 0.9688
+Tempo de treino: 0:07:32.914699
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.075 W
+______________________________________________________________________________________________________
+Treinando modelo 2/10
+Época 1, Perda Treino: 1.8439, Acurácia Treino: 0.4490
+Época 1, Perda Validação: 1.4544, Acurácia Validação: 0.6735
+Época 2, Perda Treino: 0.8780, Acurácia Treino: 0.7506
+Época 2, Perda Validação: 0.6903, Acurácia Validação: 0.8048
+Época 3, Perda Treino: 0.5841, Acurácia Treino: 0.8377
+Época 3, Perda Validação: 0.5046, Acurácia Validação: 0.8609
+Época 4, Perda Treino: 0.4474, Acurácia Treino: 0.8753
+Época 4, Perda Validação: 0.4098, Acurácia Validação: 0.8878
+Época 5, Perda Treino: 0.3708, Acurácia Treino: 0.8944
+Época 5, Perda Validação: 0.3414, Acurácia Validação: 0.9053
+Época 6, Perda Treino: 0.3221, Acurácia Treino: 0.9076
+Época 6, Perda Validação: 0.3306, Acurácia Validação: 0.9065
+Época 7, Perda Treino: 0.2862, Acurácia Treino: 0.9174
+Época 7, Perda Validação: 0.2792, Acurácia Validação: 0.9217
+Época 8, Perda Treino: 0.2605, Acurácia Treino: 0.9232
+Época 8, Perda Validação: 0.2742, Acurácia Validação: 0.9207
+Época 9, Perda Treino: 0.2400, Acurácia Treino: 0.9296
+Época 9, Perda Validação: 0.2711, Acurácia Validação: 0.9203
+Época 10, Perda Treino: 0.2279, Acurácia Treino: 0.9329
+Época 10, Perda Validação: 0.2195, Acurácia Validação: 0.9377
+Época 11, Perda Treino: 0.2140, Acurácia Treino: 0.9354
+Época 11, Perda Validação: 0.2215, Acurácia Validação: 0.9363
+Época 12, Perda Treino: 0.2036, Acurácia Treino: 0.9392
+Época 12, Perda Validação: 0.2298, Acurácia Validação: 0.9327
+Época 13, Perda Treino: 0.1955, Acurácia Treino: 0.9411
+Época 13, Perda Validação: 0.2265, Acurácia Validação: 0.9345
+Época 14, Perda Treino: 0.1879, Acurácia Treino: 0.9441
+Época 14, Perda Validação: 0.1996, Acurácia Validação: 0.9443
+Época 15, Perda Treino: 0.1807, Acurácia Treino: 0.9450
+Época 15, Perda Validação: 0.2067, Acurácia Validação: 0.9385
+Época 16, Perda Treino: 0.1733, Acurácia Treino: 0.9480
+Época 16, Perda Validação: 0.1855, Acurácia Validação: 0.9473
+Época 17, Perda Treino: 0.1698, Acurácia Treino: 0.9478
+Época 17, Perda Validação: 0.1746, Acurácia Validação: 0.9488
+Época 18, Perda Treino: 0.1666, Acurácia Treino: 0.9497
+Época 18, Perda Validação: 0.1766, Acurácia Validação: 0.9493
+Época 19, Perda Treino: 0.1613, Acurácia Treino: 0.9520
+Época 19, Perda Validação: 0.1874, Acurácia Validação: 0.9467
+Época 20, Perda Treino: 0.1569, Acurácia Treino: 0.9533
+Época 20, Perda Validação: 0.1580, Acurácia Validação: 0.9554
+Época 21, Perda Treino: 0.1532, Acurácia Treino: 0.9537
+Época 21, Perda Validação: 0.1748, Acurácia Validação: 0.9510
+Época 22, Perda Treino: 0.1497, Acurácia Treino: 0.9537
+Época 22, Perda Validação: 0.1606, Acurácia Validação: 0.9551
+Época 23, Perda Treino: 0.1468, Acurácia Treino: 0.9557
+Época 23, Perda Validação: 0.1633, Acurácia Validação: 0.9533
+Época 24, Perda Treino: 0.1427, Acurácia Treino: 0.9565
+Época 24, Perda Validação: 0.1524, Acurácia Validação: 0.9563
+Época 25, Perda Treino: 0.1416, Acurácia Treino: 0.9571
+Época 25, Perda Validação: 0.1630, Acurácia Validação: 0.9527
+Época 26, Perda Treino: 0.1393, Acurácia Treino: 0.9585
+Época 26, Perda Validação: 0.1656, Acurácia Validação: 0.9526
+Época 27, Perda Treino: 0.1378, Acurácia Treino: 0.9590
+Época 27, Perda Validação: 0.1578, Acurácia Validação: 0.9552
+Época 28, Perda Treino: 0.1341, Acurácia Treino: 0.9600
+Época 28, Perda Validação: 0.1517, Acurácia Validação: 0.9567
+Época 29, Perda Treino: 0.1322, Acurácia Treino: 0.9599
+Época 29, Perda Validação: 0.1455, Acurácia Validação: 0.9591
+Época 30, Perda Treino: 0.1298, Acurácia Treino: 0.9606
+Época 30, Perda Validação: 0.1293, Acurácia Validação: 0.9634
+Época 31, Perda Treino: 0.1290, Acurácia Treino: 0.9612
+Época 31, Perda Validação: 0.1636, Acurácia Validação: 0.9553
+Época 32, Perda Treino: 0.1270, Acurácia Treino: 0.9616
+Época 32, Perda Validação: 0.1345, Acurácia Validação: 0.9615
+Época 33, Perda Treino: 0.1253, Acurácia Treino: 0.9624
+Época 33, Perda Validação: 0.1283, Acurácia Validação: 0.9653
+Época 34, Perda Treino: 0.1219, Acurácia Treino: 0.9630
+Época 34, Perda Validação: 0.1455, Acurácia Validação: 0.9604
+Época 35, Perda Treino: 0.1227, Acurácia Treino: 0.9631
+Época 35, Perda Validação: 0.1436, Acurácia Validação: 0.9613
+Época 36, Perda Treino: 0.1216, Acurácia Treino: 0.9635
+Época 36, Perda Validação: 0.1331, Acurácia Validação: 0.9631
+Época 37, Perda Treino: 0.1203, Acurácia Treino: 0.9638
+Época 37, Perda Validação: 0.1410, Acurácia Validação: 0.9609
+Época 38, Perda Treino: 0.1021, Acurácia Treino: 0.9689
+Época 38, Perda Validação: 0.1206, Acurácia Validação: 0.9664
+Época 39, Perda Treino: 0.1012, Acurácia Treino: 0.9690
+Época 39, Perda Validação: 0.1182, Acurácia Validação: 0.9679
+Época 40, Perda Treino: 0.1009, Acurácia Treino: 0.9694
+Época 40, Perda Validação: 0.1220, Acurácia Validação: 0.9668
+Época 41, Perda Treino: 0.1011, Acurácia Treino: 0.9698
+Época 41, Perda Validação: 0.1176, Acurácia Validação: 0.9686
+Época 42, Perda Treino: 0.1006, Acurácia Treino: 0.9695
+Época 42, Perda Validação: 0.1189, Acurácia Validação: 0.9687
+Época 43, Perda Treino: 0.1007, Acurácia Treino: 0.9695
+Época 43, Perda Validação: 0.1194, Acurácia Validação: 0.9677
+Época 44, Perda Treino: 0.1006, Acurácia Treino: 0.9694
+Época 44, Perda Validação: 0.1180, Acurácia Validação: 0.9684
+Early stopping na época 44
+Modelo 2: Média Perda Treino: 0.1007, Média Acurácia Treino: 0.9692, Média Perda Validação: 0.1172, Média Acurácia Validação: 0.9686
+Tempo de treino: 0:07:46.368126
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 66.551 W
+______________________________________________________________________________________________________
+Treinando modelo 3/10
+Época 1, Perda Treino: 1.8463, Acurácia Treino: 0.4913
+Época 1, Perda Validação: 1.4373, Acurácia Validação: 0.6737
+Época 2, Perda Treino: 0.8659, Acurácia Treino: 0.7606
+Época 2, Perda Validação: 0.6698, Acurácia Validação: 0.8212
+Época 3, Perda Treino: 0.5598, Acurácia Treino: 0.8426
+Época 3, Perda Validação: 0.4783, Acurácia Validação: 0.8645
+Época 4, Perda Treino: 0.4293, Acurácia Treino: 0.8766
+Época 4, Perda Validação: 0.3930, Acurácia Validação: 0.8907
+Época 5, Perda Treino: 0.3543, Acurácia Treino: 0.8982
+Época 5, Perda Validação: 0.3454, Acurácia Validação: 0.9018
+Época 6, Perda Treino: 0.3102, Acurácia Treino: 0.9090
+Época 6, Perda Validação: 0.3087, Acurácia Validação: 0.9080
+Época 7, Perda Treino: 0.2795, Acurácia Treino: 0.9178
+Época 7, Perda Validação: 0.2801, Acurácia Validação: 0.9197
+Época 8, Perda Treino: 0.2563, Acurácia Treino: 0.9244
+Época 8, Perda Validação: 0.2576, Acurácia Validação: 0.9257
+Época 9, Perda Treino: 0.2396, Acurácia Treino: 0.9292
+Época 9, Perda Validação: 0.2494, Acurácia Validação: 0.9301
+Época 10, Perda Treino: 0.2250, Acurácia Treino: 0.9333
+Época 10, Perda Validação: 0.2378, Acurácia Validação: 0.9316
+Época 11, Perda Treino: 0.2120, Acurácia Treino: 0.9371
+Época 11, Perda Validação: 0.2164, Acurácia Validação: 0.9374
+Época 12, Perda Treino: 0.2030, Acurácia Treino: 0.9400
+Época 12, Perda Validação: 0.2116, Acurácia Validação: 0.9392
+Época 13, Perda Treino: 0.1929, Acurácia Treino: 0.9419
+Época 13, Perda Validação: 0.1989, Acurácia Validação: 0.9451
+Época 14, Perda Treino: 0.1864, Acurácia Treino: 0.9442
+Época 14, Perda Validação: 0.1857, Acurácia Validação: 0.9477
+Época 15, Perda Treino: 0.1783, Acurácia Treino: 0.9464
+Época 15, Perda Validação: 0.1858, Acurácia Validação: 0.9473
+Época 16, Perda Treino: 0.1722, Acurácia Treino: 0.9484
+Época 16, Perda Validação: 0.1743, Acurácia Validação: 0.9515
+Época 17, Perda Treino: 0.1658, Acurácia Treino: 0.9503
+Época 17, Perda Validação: 0.1760, Acurácia Validação: 0.9501
+Época 18, Perda Treino: 0.1604, Acurácia Treino: 0.9512
+Época 18, Perda Validação: 0.1852, Acurácia Validação: 0.9470
+Época 19, Perda Treino: 0.1577, Acurácia Treino: 0.9519
+Época 19, Perda Validação: 0.1645, Acurácia Validação: 0.9532
+Época 20, Perda Treino: 0.1516, Acurácia Treino: 0.9537
+Época 20, Perda Validação: 0.1671, Acurácia Validação: 0.9506
+Época 21, Perda Treino: 0.1487, Acurácia Treino: 0.9545
+Época 21, Perda Validação: 0.1541, Acurácia Validação: 0.9567
+Época 22, Perda Treino: 0.1444, Acurácia Treino: 0.9563
+Época 22, Perda Validação: 0.1557, Acurácia Validação: 0.9554
+Época 23, Perda Treino: 0.1440, Acurácia Treino: 0.9567
+Época 23, Perda Validação: 0.1712, Acurácia Validação: 0.9507
+Época 24, Perda Treino: 0.1420, Acurácia Treino: 0.9564
+Época 24, Perda Validação: 0.1563, Acurácia Validação: 0.9565
+Época 25, Perda Treino: 0.1374, Acurácia Treino: 0.9576
+Época 25, Perda Validação: 0.1548, Acurácia Validação: 0.9549
+Época 26, Perda Treino: 0.1210, Acurácia Treino: 0.9630
+Época 26, Perda Validação: 0.1374, Acurácia Validação: 0.9603
+Época 27, Perda Treino: 0.1198, Acurácia Treino: 0.9632
+Época 27, Perda Validação: 0.1405, Acurácia Validação: 0.9593
+Época 28, Perda Treino: 0.1194, Acurácia Treino: 0.9633
+Época 28, Perda Validação: 0.1373, Acurácia Validação: 0.9609
+Época 29, Perda Treino: 0.1192, Acurácia Treino: 0.9644
+Época 29, Perda Validação: 0.1372, Acurácia Validação: 0.9605
+Época 30, Perda Treino: 0.1194, Acurácia Treino: 0.9640
+Época 30, Perda Validação: 0.1389, Acurácia Validação: 0.9604
+Época 31, Perda Treino: 0.1185, Acurácia Treino: 0.9639
+Época 31, Perda Validação: 0.1392, Acurácia Validação: 0.9598
+Early stopping na época 31
+Modelo 3: Média Perda Treino: 0.1067, Média Acurácia Treino: 0.9674, Média Perda Validação: 0.1245, Média Acurácia Validação: 0.9657
+Tempo de treino: 0:05:24.494040
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.684 W
+______________________________________________________________________________________________________
+Treinando modelo 4/10
+Época 1, Perda Treino: 1.8673, Acurácia Treino: 0.4342
+Época 1, Perda Validação: 1.4856, Acurácia Validação: 0.6295
+Época 2, Perda Treino: 0.9293, Acurácia Treino: 0.7264
+Época 2, Perda Validação: 0.7583, Acurácia Validação: 0.7824
+Época 3, Perda Treino: 0.6527, Acurácia Treino: 0.8157
+Época 3, Perda Validação: 0.5591, Acurácia Validação: 0.8357
+Época 4, Perda Treino: 0.4899, Acurácia Treino: 0.8641
+Época 4, Perda Validação: 0.4233, Acurácia Validação: 0.8837
+Época 5, Perda Treino: 0.3951, Acurácia Treino: 0.8908
+Época 5, Perda Validação: 0.3622, Acurácia Validação: 0.8999
+Época 6, Perda Treino: 0.3353, Acurácia Treino: 0.9061
+Época 6, Perda Validação: 0.3210, Acurácia Validação: 0.9087
+Época 7, Perda Treino: 0.2955, Acurácia Treino: 0.9163
+Época 7, Perda Validação: 0.2890, Acurácia Validação: 0.9181
+Época 8, Perda Treino: 0.2668, Acurácia Treino: 0.9233
+Época 8, Perda Validação: 0.2539, Acurácia Validação: 0.9276
+Época 9, Perda Treino: 0.2469, Acurácia Treino: 0.9286
+Época 9, Perda Validação: 0.2437, Acurácia Validação: 0.9309
+Época 10, Perda Treino: 0.2295, Acurácia Treino: 0.9321
+Época 10, Perda Validação: 0.2502, Acurácia Validação: 0.9278
+Época 11, Perda Treino: 0.2161, Acurácia Treino: 0.9360
+Época 11, Perda Validação: 0.2158, Acurácia Validação: 0.9387
+Época 12, Perda Treino: 0.2039, Acurácia Treino: 0.9397
+Época 12, Perda Validação: 0.2039, Acurácia Validação: 0.9423
+Época 13, Perda Treino: 0.1971, Acurácia Treino: 0.9417
+Época 13, Perda Validação: 0.2109, Acurácia Validação: 0.9397
+Época 14, Perda Treino: 0.1879, Acurácia Treino: 0.9449
+Época 14, Perda Validação: 0.2073, Acurácia Validação: 0.9400
+Época 15, Perda Treino: 0.1822, Acurácia Treino: 0.9451
+Época 15, Perda Validação: 0.1998, Acurácia Validação: 0.9426
+Época 16, Perda Treino: 0.1746, Acurácia Treino: 0.9478
+Época 16, Perda Validação: 0.1826, Acurácia Validação: 0.9478
+Época 17, Perda Treino: 0.1682, Acurácia Treino: 0.9496
+Época 17, Perda Validação: 0.1685, Acurácia Validação: 0.9523
+Época 18, Perda Treino: 0.1659, Acurácia Treino: 0.9495
+Época 18, Perda Validação: 0.1778, Acurácia Validação: 0.9489
+Época 19, Perda Treino: 0.1600, Acurácia Treino: 0.9517
+Época 19, Perda Validação: 0.1902, Acurácia Validação: 0.9445
+Época 20, Perda Treino: 0.1568, Acurácia Treino: 0.9531
+Época 20, Perda Validação: 0.1603, Acurácia Validação: 0.9543
+Época 21, Perda Treino: 0.1531, Acurácia Treino: 0.9538
+Época 21, Perda Validação: 0.1579, Acurácia Validação: 0.9546
+Época 22, Perda Treino: 0.1511, Acurácia Treino: 0.9541
+Época 22, Perda Validação: 0.1565, Acurácia Validação: 0.9564
+Época 23, Perda Treino: 0.1465, Acurácia Treino: 0.9559
+Época 23, Perda Validação: 0.1687, Acurácia Validação: 0.9540
+Época 24, Perda Treino: 0.1429, Acurácia Treino: 0.9569
+Época 24, Perda Validação: 0.1518, Acurácia Validação: 0.9577
+Época 25, Perda Treino: 0.1399, Acurácia Treino: 0.9577
+Época 25, Perda Validação: 0.1648, Acurácia Validação: 0.9517
+Época 26, Perda Treino: 0.1379, Acurácia Treino: 0.9583
+Época 26, Perda Validação: 0.1572, Acurácia Validação: 0.9552
+Época 27, Perda Treino: 0.1362, Acurácia Treino: 0.9582
+Época 27, Perda Validação: 0.1814, Acurácia Validação: 0.9489
+Época 28, Perda Treino: 0.1325, Acurácia Treino: 0.9604
+Época 28, Perda Validação: 0.1655, Acurácia Validação: 0.9553
+Época 29, Perda Treino: 0.1153, Acurácia Treino: 0.9649
+Época 29, Perda Validação: 0.1318, Acurácia Validação: 0.9625
+Época 30, Perda Treino: 0.1148, Acurácia Treino: 0.9655
+Época 30, Perda Validação: 0.1334, Acurácia Validação: 0.9616
+Época 31, Perda Treino: 0.1144, Acurácia Treino: 0.9653
+Época 31, Perda Validação: 0.1331, Acurácia Validação: 0.9622
+Época 32, Perda Treino: 0.1141, Acurácia Treino: 0.9657
+Época 32, Perda Validação: 0.1312, Acurácia Validação: 0.9627
+Época 33, Perda Treino: 0.1140, Acurácia Treino: 0.9658
+Época 33, Perda Validação: 0.1322, Acurácia Validação: 0.9630
+Época 34, Perda Treino: 0.1135, Acurácia Treino: 0.9659
+Época 34, Perda Validação: 0.1307, Acurácia Validação: 0.9633
+Early stopping na época 34
+Modelo 4: Média Perda Treino: 0.1084, Média Acurácia Treino: 0.9670, Média Perda Validação: 0.1261, Média Acurácia Validação: 0.9651
+Tempo de treino: 0:05:55.606505
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.352 W
+______________________________________________________________________________________________________
+Treinando modelo 5/10
+Época 1, Perda Treino: 1.8400, Acurácia Treino: 0.4872
+Época 1, Perda Validação: 1.4479, Acurácia Validação: 0.7012
+Época 2, Perda Treino: 0.8907, Acurácia Treino: 0.7441
+Época 2, Perda Validação: 0.7264, Acurácia Validação: 0.7883
+Época 3, Perda Treino: 0.6305, Acurácia Treino: 0.8140
+Época 3, Perda Validação: 0.5583, Acurácia Validação: 0.8354
+Época 4, Perda Treino: 0.5018, Acurácia Treino: 0.8531
+Época 4, Perda Validação: 0.4797, Acurácia Validação: 0.8509
+Época 5, Perda Treino: 0.4126, Acurácia Treino: 0.8807
+Época 5, Perda Validação: 0.3777, Acurácia Validação: 0.8914
+Época 6, Perda Treino: 0.3493, Acurácia Treino: 0.8998
+Época 6, Perda Validação: 0.3219, Acurácia Validação: 0.9075
+Época 7, Perda Treino: 0.3062, Acurácia Treino: 0.9110
+Época 7, Perda Validação: 0.2928, Acurácia Validação: 0.9181
+Época 8, Perda Treino: 0.2748, Acurácia Treino: 0.9200
+Época 8, Perda Validação: 0.2732, Acurácia Validação: 0.9192
+Época 9, Perda Treino: 0.2472, Acurácia Treino: 0.9280
+Época 9, Perda Validação: 0.2498, Acurácia Validação: 0.9287
+Época 10, Perda Treino: 0.2302, Acurácia Treino: 0.9322
+Época 10, Perda Validação: 0.2247, Acurácia Validação: 0.9356
+Época 11, Perda Treino: 0.2160, Acurácia Treino: 0.9360
+Época 11, Perda Validação: 0.2213, Acurácia Validação: 0.9366
+Época 12, Perda Treino: 0.2043, Acurácia Treino: 0.9399
+Época 12, Perda Validação: 0.2138, Acurácia Validação: 0.9376
+Época 13, Perda Treino: 0.1954, Acurácia Treino: 0.9415
+Época 13, Perda Validação: 0.2035, Acurácia Validação: 0.9431
+Época 14, Perda Treino: 0.1877, Acurácia Treino: 0.9438
+Época 14, Perda Validação: 0.2204, Acurácia Validação: 0.9379
+Época 15, Perda Treino: 0.1800, Acurácia Treino: 0.9456
+Época 15, Perda Validação: 0.1915, Acurácia Validação: 0.9460
+Época 16, Perda Treino: 0.1734, Acurácia Treino: 0.9475
+Época 16, Perda Validação: 0.1862, Acurácia Validação: 0.9468
+Época 17, Perda Treino: 0.1692, Acurácia Treino: 0.9487
+Época 17, Perda Validação: 0.1792, Acurácia Validação: 0.9479
+Época 18, Perda Treino: 0.1645, Acurácia Treino: 0.9505
+Época 18, Perda Validação: 0.1834, Acurácia Validação: 0.9458
+Época 19, Perda Treino: 0.1614, Acurácia Treino: 0.9514
+Época 19, Perda Validação: 0.1788, Acurácia Validação: 0.9509
+Época 20, Perda Treino: 0.1560, Acurácia Treino: 0.9531
+Época 20, Perda Validação: 0.1754, Acurácia Validação: 0.9517
+Época 21, Perda Treino: 0.1537, Acurácia Treino: 0.9542
+Época 21, Perda Validação: 0.1653, Acurácia Validação: 0.9540
+Época 22, Perda Treino: 0.1517, Acurácia Treino: 0.9545
+Época 22, Perda Validação: 0.1877, Acurácia Validação: 0.9473
+Época 23, Perda Treino: 0.1505, Acurácia Treino: 0.9544
+Época 23, Perda Validação: 0.1673, Acurácia Validação: 0.9538
+Época 24, Perda Treino: 0.1448, Acurácia Treino: 0.9567
+Época 24, Perda Validação: 0.1722, Acurácia Validação: 0.9519
+Época 25, Perda Treino: 0.1433, Acurácia Treino: 0.9566
+Época 25, Perda Validação: 0.1478, Acurácia Validação: 0.9597
+Época 26, Perda Treino: 0.1391, Acurácia Treino: 0.9580
+Época 26, Perda Validação: 0.1472, Acurácia Validação: 0.9593
+Época 27, Perda Treino: 0.1373, Acurácia Treino: 0.9578
+Época 27, Perda Validação: 0.1682, Acurácia Validação: 0.9528
+Época 28, Perda Treino: 0.1367, Acurácia Treino: 0.9580
+Época 28, Perda Validação: 0.1461, Acurácia Validação: 0.9594
+Época 29, Perda Treino: 0.1350, Acurácia Treino: 0.9597
+Época 29, Perda Validação: 0.1654, Acurácia Validação: 0.9535
+Época 30, Perda Treino: 0.1331, Acurácia Treino: 0.9593
+Época 30, Perda Validação: 0.1487, Acurácia Validação: 0.9565
+Época 31, Perda Treino: 0.1307, Acurácia Treino: 0.9600
+Época 31, Perda Validação: 0.1420, Acurácia Validação: 0.9606
+Época 32, Perda Treino: 0.1297, Acurácia Treino: 0.9609
+Época 32, Perda Validação: 0.1431, Acurácia Validação: 0.9597
+Época 33, Perda Treino: 0.1286, Acurácia Treino: 0.9610
+Época 33, Perda Validação: 0.1418, Acurácia Validação: 0.9611
+Época 34, Perda Treino: 0.1253, Acurácia Treino: 0.9617
+Época 34, Perda Validação: 0.1369, Acurácia Validação: 0.9623
+Época 35, Perda Treino: 0.1231, Acurácia Treino: 0.9625
+Época 35, Perda Validação: 0.1489, Acurácia Validação: 0.9592
+Época 36, Perda Treino: 0.1233, Acurácia Treino: 0.9622
+Época 36, Perda Validação: 0.1396, Acurácia Validação: 0.9625
+Época 37, Perda Treino: 0.1221, Acurácia Treino: 0.9632
+Época 37, Perda Validação: 0.1308, Acurácia Validação: 0.9627
+Época 38, Perda Treino: 0.1212, Acurácia Treino: 0.9630
+Época 38, Perda Validação: 0.1616, Acurácia Validação: 0.9527
+Época 39, Perda Treino: 0.1198, Acurácia Treino: 0.9641
+Época 39, Perda Validação: 0.1294, Acurácia Validação: 0.9649
+Época 40, Perda Treino: 0.1197, Acurácia Treino: 0.9634
+Época 40, Perda Validação: 0.1304, Acurácia Validação: 0.9646
+Época 41, Perda Treino: 0.1166, Acurácia Treino: 0.9646
+Época 41, Perda Validação: 0.1385, Acurácia Validação: 0.9614
+Época 42, Perda Treino: 0.1159, Acurácia Treino: 0.9648
+Época 42, Perda Validação: 0.1457, Acurácia Validação: 0.9610
+Época 43, Perda Treino: 0.1160, Acurácia Treino: 0.9645
+Época 43, Perda Validação: 0.1508, Acurácia Validação: 0.9554
+Época 44, Perda Treino: 0.1001, Acurácia Treino: 0.9690
+Época 44, Perda Validação: 0.1223, Acurácia Validação: 0.9663
+Época 45, Perda Treino: 0.0986, Acurácia Treino: 0.9701
+Época 45, Perda Validação: 0.1201, Acurácia Validação: 0.9671
+Época 46, Perda Treino: 0.0983, Acurácia Treino: 0.9699
+Época 46, Perda Validação: 0.1184, Acurácia Validação: 0.9676
+Época 47, Perda Treino: 0.0981, Acurácia Treino: 0.9704
+Época 47, Perda Validação: 0.1184, Acurácia Validação: 0.9675
+Época 48, Perda Treino: 0.0982, Acurácia Treino: 0.9704
+Época 48, Perda Validação: 0.1194, Acurácia Validação: 0.9673
+Época 49, Perda Treino: 0.0978, Acurácia Treino: 0.9705
+Época 49, Perda Validação: 0.1220, Acurácia Validação: 0.9673
+Época 50, Perda Treino: 0.0979, Acurácia Treino: 0.9703
+Época 50, Perda Validação: 0.1197, Acurácia Validação: 0.9679
+Modelo 5: Média Perda Treino: 0.1063, Média Acurácia Treino: 0.9677, Média Perda Validação: 0.1248, Média Acurácia Validação: 0.9657
+Tempo de treino: 0:08:45.339173
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.227 W
+______________________________________________________________________________________________________
+Treinando modelo 6/10
+Época 1, Perda Treino: 1.8679, Acurácia Treino: 0.4679
+Época 1, Perda Validação: 1.4830, Acurácia Validação: 0.7136
+Época 2, Perda Treino: 0.9033, Acurácia Treino: 0.7420
+Época 2, Perda Validação: 0.7117, Acurácia Validação: 0.7986
+Época 3, Perda Treino: 0.6312, Acurácia Treino: 0.8177
+Época 3, Perda Validação: 0.5504, Acurácia Validação: 0.8388
+Época 4, Perda Treino: 0.4939, Acurácia Treino: 0.8606
+Época 4, Perda Validação: 0.4641, Acurácia Validação: 0.8636
+Época 5, Perda Treino: 0.4070, Acurácia Treino: 0.8833
+Época 5, Perda Validação: 0.3759, Acurácia Validação: 0.8910
+Época 6, Perda Treino: 0.3512, Acurácia Treino: 0.8979
+Época 6, Perda Validação: 0.3360, Acurácia Validação: 0.9040
+Época 7, Perda Treino: 0.3119, Acurácia Treino: 0.9098
+Época 7, Perda Validação: 0.3180, Acurácia Validação: 0.9095
+Época 8, Perda Treino: 0.2824, Acurácia Treino: 0.9172
+Época 8, Perda Validação: 0.2763, Acurácia Validação: 0.9197
+Época 9, Perda Treino: 0.2582, Acurácia Treino: 0.9231
+Época 9, Perda Validação: 0.2755, Acurácia Validação: 0.9186
+Época 10, Perda Treino: 0.2401, Acurácia Treino: 0.9291
+Época 10, Perda Validação: 0.2555, Acurácia Validação: 0.9267
+Época 11, Perda Treino: 0.2257, Acurácia Treino: 0.9324
+Época 11, Perda Validação: 0.2446, Acurácia Validação: 0.9313
+Época 12, Perda Treino: 0.2137, Acurácia Treino: 0.9364
+Época 12, Perda Validação: 0.2356, Acurácia Validação: 0.9305
+Época 13, Perda Treino: 0.2053, Acurácia Treino: 0.9386
+Época 13, Perda Validação: 0.2238, Acurácia Validação: 0.9323
+Época 14, Perda Treino: 0.1964, Acurácia Treino: 0.9409
+Época 14, Perda Validação: 0.2039, Acurácia Validação: 0.9424
+Época 15, Perda Treino: 0.1898, Acurácia Treino: 0.9434
+Época 15, Perda Validação: 0.2056, Acurácia Validação: 0.9414
+Época 16, Perda Treino: 0.1826, Acurácia Treino: 0.9447
+Época 16, Perda Validação: 0.1932, Acurácia Validação: 0.9436
+Época 17, Perda Treino: 0.1771, Acurácia Treino: 0.9463
+Época 17, Perda Validação: 0.1929, Acurácia Validação: 0.9461
+Época 18, Perda Treino: 0.1703, Acurácia Treino: 0.9489
+Época 18, Perda Validação: 0.1713, Acurácia Validação: 0.9515
+Época 19, Perda Treino: 0.1662, Acurácia Treino: 0.9494
+Época 19, Perda Validação: 0.1731, Acurácia Validação: 0.9517
+Época 20, Perda Treino: 0.1614, Acurácia Treino: 0.9515
+Época 20, Perda Validação: 0.1652, Acurácia Validação: 0.9538
+Época 21, Perda Treino: 0.1579, Acurácia Treino: 0.9524
+Época 21, Perda Validação: 0.1777, Acurácia Validação: 0.9507
+Época 22, Perda Treino: 0.1540, Acurácia Treino: 0.9530
+Época 22, Perda Validação: 0.1612, Acurácia Validação: 0.9547
+Época 23, Perda Treino: 0.1495, Acurácia Treino: 0.9550
+Época 23, Perda Validação: 0.1520, Acurácia Validação: 0.9573
+Época 24, Perda Treino: 0.1497, Acurácia Treino: 0.9534
+Época 24, Perda Validação: 0.1699, Acurácia Validação: 0.9507
+Época 25, Perda Treino: 0.1470, Acurácia Treino: 0.9552
+Época 25, Perda Validação: 0.1556, Acurácia Validação: 0.9556
+Época 26, Perda Treino: 0.1443, Acurácia Treino: 0.9564
+Época 26, Perda Validação: 0.1505, Acurácia Validação: 0.9576
+Época 27, Perda Treino: 0.1399, Acurácia Treino: 0.9578
+Época 27, Perda Validação: 0.1581, Acurácia Validação: 0.9565
+Época 28, Perda Treino: 0.1371, Acurácia Treino: 0.9587
+Época 28, Perda Validação: 0.1382, Acurácia Validação: 0.9612
+Época 29, Perda Treino: 0.1355, Acurácia Treino: 0.9595
+Época 29, Perda Validação: 0.1599, Acurácia Validação: 0.9517
+Época 30, Perda Treino: 0.1337, Acurácia Treino: 0.9591
+Época 30, Perda Validação: 0.1457, Acurácia Validação: 0.9583
+Época 31, Perda Treino: 0.1304, Acurácia Treino: 0.9610
+Época 31, Perda Validação: 0.1450, Acurácia Validação: 0.9595
+Época 32, Perda Treino: 0.1287, Acurácia Treino: 0.9599
+Época 32, Perda Validação: 0.1653, Acurácia Validação: 0.9547
+Época 33, Perda Treino: 0.1123, Acurácia Treino: 0.9658
+Época 33, Perda Validação: 0.1292, Acurácia Validação: 0.9633
+Época 34, Perda Treino: 0.1108, Acurácia Treino: 0.9665
+Época 34, Perda Validação: 0.1283, Acurácia Validação: 0.9644
+Época 35, Perda Treino: 0.1104, Acurácia Treino: 0.9665
+Época 35, Perda Validação: 0.1291, Acurácia Validação: 0.9640
+Época 36, Perda Treino: 0.1100, Acurácia Treino: 0.9663
+Época 36, Perda Validação: 0.1281, Acurácia Validação: 0.9647
+Época 37, Perda Treino: 0.1099, Acurácia Treino: 0.9667
+Época 37, Perda Validação: 0.1283, Acurácia Validação: 0.9642
+Época 38, Perda Treino: 0.1095, Acurácia Treino: 0.9665
+Época 38, Perda Validação: 0.1268, Acurácia Validação: 0.9646
+Época 39, Perda Treino: 0.1096, Acurácia Treino: 0.9669
+Época 39, Perda Validação: 0.1278, Acurácia Validação: 0.9650
+Época 40, Perda Treino: 0.1089, Acurácia Treino: 0.9666
+Época 40, Perda Validação: 0.1305, Acurácia Validação: 0.9635
+Época 41, Perda Treino: 0.1088, Acurácia Treino: 0.9670
+Época 41, Perda Validação: 0.1275, Acurácia Validação: 0.9645
+Época 42, Perda Treino: 0.1085, Acurácia Treino: 0.9671
+Época 42, Perda Validação: 0.1279, Acurácia Validação: 0.9640
+Época 43, Perda Treino: 0.1071, Acurácia Treino: 0.9679
+Época 43, Perda Validação: 0.1258, Acurácia Validação: 0.9647
+Época 44, Perda Treino: 0.1067, Acurácia Treino: 0.9675
+Época 44, Perda Validação: 0.1260, Acurácia Validação: 0.9649
+Época 45, Perda Treino: 0.1066, Acurácia Treino: 0.9674
+Época 45, Perda Validação: 0.1258, Acurácia Validação: 0.9650
+Época 46, Perda Treino: 0.1065, Acurácia Treino: 0.9677
+Época 46, Perda Validação: 0.1261, Acurácia Validação: 0.9647
+Época 47, Perda Treino: 0.1066, Acurácia Treino: 0.9673
+Época 47, Perda Validação: 0.1258, Acurácia Validação: 0.9651
+Época 48, Perda Treino: 0.1063, Acurácia Treino: 0.9676
+Época 48, Perda Validação: 0.1257, Acurácia Validação: 0.9647
+Early stopping na época 48
+Modelo 6: Média Perda Treino: 0.1063, Média Acurácia Treino: 0.9677, Média Perda Validação: 0.1249, Média Acurácia Validação: 0.9655
+Tempo de treino: 0:08:17.613104
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.216 W
+______________________________________________________________________________________________________
+Treinando modelo 7/10
+Época 1, Perda Treino: 1.8425, Acurácia Treino: 0.4713
+Época 1, Perda Validação: 1.4398, Acurácia Validação: 0.6582
+Época 2, Perda Treino: 0.8795, Acurácia Treino: 0.7423
+Época 2, Perda Validação: 0.7012, Acurácia Validação: 0.8043
+Época 3, Perda Treino: 0.6103, Acurácia Treino: 0.8295
+Época 3, Perda Validação: 0.5162, Acurácia Validação: 0.8585
+Época 4, Perda Treino: 0.4602, Acurácia Treino: 0.8709
+Época 4, Perda Validação: 0.4461, Acurácia Validação: 0.8652
+Época 5, Perda Treino: 0.3750, Acurácia Treino: 0.8937
+Época 5, Perda Validação: 0.3543, Acurácia Validação: 0.8995
+Época 6, Perda Treino: 0.3207, Acurácia Treino: 0.9077
+Época 6, Perda Validação: 0.3046, Acurácia Validação: 0.9165
+Época 7, Perda Treino: 0.2868, Acurácia Treino: 0.9160
+Época 7, Perda Validação: 0.2866, Acurácia Validação: 0.9167
+Época 8, Perda Treino: 0.2600, Acurácia Treino: 0.9245
+Época 8, Perda Validação: 0.2627, Acurácia Validação: 0.9256
+Época 9, Perda Treino: 0.2388, Acurácia Treino: 0.9295
+Época 9, Perda Validação: 0.2328, Acurácia Validação: 0.9366
+Época 10, Perda Treino: 0.2241, Acurácia Treino: 0.9344
+Época 10, Perda Validação: 0.2171, Acurácia Validação: 0.9395
+Época 11, Perda Treino: 0.2133, Acurácia Treino: 0.9365
+Época 11, Perda Validação: 0.2082, Acurácia Validação: 0.9417
+Época 12, Perda Treino: 0.2012, Acurácia Treino: 0.9400
+Época 12, Perda Validação: 0.2074, Acurácia Validação: 0.9407
+Época 13, Perda Treino: 0.1956, Acurácia Treino: 0.9414
+Época 13, Perda Validação: 0.2000, Acurácia Validação: 0.9422
+Época 14, Perda Treino: 0.1857, Acurácia Treino: 0.9444
+Época 14, Perda Validação: 0.1890, Acurácia Validação: 0.9461
+Época 15, Perda Treino: 0.1813, Acurácia Treino: 0.9455
+Época 15, Perda Validação: 0.1911, Acurácia Validação: 0.9425
+Época 16, Perda Treino: 0.1744, Acurácia Treino: 0.9475
+Época 16, Perda Validação: 0.1734, Acurácia Validação: 0.9531
+Época 17, Perda Treino: 0.1681, Acurácia Treino: 0.9490
+Época 17, Perda Validação: 0.1705, Acurácia Validação: 0.9508
+Época 18, Perda Treino: 0.1661, Acurácia Treino: 0.9501
+Época 18, Perda Validação: 0.1613, Acurácia Validação: 0.9544
+Época 19, Perda Treino: 0.1609, Acurácia Treino: 0.9509
+Época 19, Perda Validação: 0.1709, Acurácia Validação: 0.9540
+Época 20, Perda Treino: 0.1584, Acurácia Treino: 0.9524
+Época 20, Perda Validação: 0.1652, Acurácia Validação: 0.9518
+Época 21, Perda Treino: 0.1534, Acurácia Treino: 0.9532
+Época 21, Perda Validação: 0.1522, Acurácia Validação: 0.9567
+Época 22, Perda Treino: 0.1498, Acurácia Treino: 0.9554
+Época 22, Perda Validação: 0.1672, Acurácia Validação: 0.9513
+Época 23, Perda Treino: 0.1485, Acurácia Treino: 0.9547
+Época 23, Perda Validação: 0.1447, Acurácia Validação: 0.9587
+Época 24, Perda Treino: 0.1464, Acurácia Treino: 0.9558
+Época 24, Perda Validação: 0.1546, Acurácia Validação: 0.9552
+Época 25, Perda Treino: 0.1428, Acurácia Treino: 0.9571
+Época 25, Perda Validação: 0.1714, Acurácia Validação: 0.9504
+Época 26, Perda Treino: 0.1402, Acurácia Treino: 0.9569
+Época 26, Perda Validação: 0.1463, Acurácia Validação: 0.9577
+Época 27, Perda Treino: 0.1396, Acurácia Treino: 0.9590
+Época 27, Perda Validação: 0.1494, Acurácia Validação: 0.9575
+Época 28, Perda Treino: 0.1212, Acurácia Treino: 0.9638
+Época 28, Perda Validação: 0.1357, Acurácia Validação: 0.9605
+Época 29, Perda Treino: 0.1199, Acurácia Treino: 0.9638
+Época 29, Perda Validação: 0.1353, Acurácia Validação: 0.9607
+Época 30, Perda Treino: 0.1197, Acurácia Treino: 0.9642
+Época 30, Perda Validação: 0.1356, Acurácia Validação: 0.9617
+Época 31, Perda Treino: 0.1196, Acurácia Treino: 0.9638
+Época 31, Perda Validação: 0.1343, Acurácia Validação: 0.9624
+Época 32, Perda Treino: 0.1190, Acurácia Treino: 0.9641
+Época 32, Perda Validação: 0.1367, Acurácia Validação: 0.9613
+Época 33, Perda Treino: 0.1192, Acurácia Treino: 0.9641
+Época 33, Perda Validação: 0.1336, Acurácia Validação: 0.9625
+Época 34, Perda Treino: 0.1186, Acurácia Treino: 0.9642
+Época 34, Perda Validação: 0.1338, Acurácia Validação: 0.9623
+Época 35, Perda Treino: 0.1184, Acurácia Treino: 0.9645
+Época 35, Perda Validação: 0.1337, Acurácia Validação: 0.9623
+Época 36, Perda Treino: 0.1181, Acurácia Treino: 0.9645
+Época 36, Perda Validação: 0.1323, Acurácia Validação: 0.9622
+Época 37, Perda Treino: 0.1179, Acurácia Treino: 0.9647
+Época 37, Perda Validação: 0.1327, Acurácia Validação: 0.9621
+Época 38, Perda Treino: 0.1176, Acurácia Treino: 0.9649
+Época 38, Perda Validação: 0.1328, Acurácia Validação: 0.9627
+Época 39, Perda Treino: 0.1171, Acurácia Treino: 0.9647
+Época 39, Perda Validação: 0.1339, Acurácia Validação: 0.9627
+Época 40, Perda Treino: 0.1171, Acurácia Treino: 0.9648
+Época 40, Perda Validação: 0.1327, Acurácia Validação: 0.9626
+Época 41, Perda Treino: 0.1150, Acurácia Treino: 0.9656
+Época 41, Perda Validação: 0.1313, Acurácia Validação: 0.9627
+Época 42, Perda Treino: 0.1148, Acurácia Treino: 0.9658
+Época 42, Perda Validação: 0.1312, Acurácia Validação: 0.9633
+Época 43, Perda Treino: 0.1148, Acurácia Treino: 0.9659
+Época 43, Perda Validação: 0.1312, Acurácia Validação: 0.9628
+Época 44, Perda Treino: 0.1148, Acurácia Treino: 0.9658
+Época 44, Perda Validação: 0.1314, Acurácia Validação: 0.9632
+Época 45, Perda Treino: 0.1148, Acurácia Treino: 0.9659
+Época 45, Perda Validação: 0.1312, Acurácia Validação: 0.9629
+Época 46, Perda Treino: 0.1148, Acurácia Treino: 0.9660
+Época 46, Perda Validação: 0.1313, Acurácia Validação: 0.9630
+Early stopping na época 46
+Modelo 7: Média Perda Treino: 0.1075, Média Acurácia Treino: 0.9674, Média Perda Validação: 0.1259, Média Acurácia Validação: 0.9651
+Tempo de treino: 0:07:57.771813
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.343 W
+______________________________________________________________________________________________________
+Treinando modelo 8/10
+Época 1, Perda Treino: 1.8510, Acurácia Treino: 0.4574
+Época 1, Perda Validação: 1.4571, Acurácia Validação: 0.6577
+Época 2, Perda Treino: 0.8937, Acurácia Treino: 0.7459
+Época 2, Perda Validação: 0.7531, Acurácia Validação: 0.7827
+Época 3, Perda Treino: 0.6285, Acurácia Treino: 0.8212
+Época 3, Perda Validação: 0.5841, Acurácia Validação: 0.8220
+Época 4, Perda Treino: 0.4896, Acurácia Treino: 0.8592
+Época 4, Perda Validação: 0.4374, Acurácia Validação: 0.8786
+Época 5, Perda Treino: 0.4023, Acurácia Treino: 0.8857
+Época 5, Perda Validação: 0.3963, Acurácia Validação: 0.8851
+Época 6, Perda Treino: 0.3451, Acurácia Treino: 0.9010
+Época 6, Perda Validação: 0.3239, Acurácia Validação: 0.9067
+Época 7, Perda Treino: 0.3065, Acurácia Treino: 0.9127
+Época 7, Perda Validação: 0.3070, Acurácia Validação: 0.9108
+Época 8, Perda Treino: 0.2778, Acurácia Treino: 0.9193
+Época 8, Perda Validação: 0.2887, Acurácia Validação: 0.9183
+Época 9, Perda Treino: 0.2574, Acurácia Treino: 0.9245
+Época 9, Perda Validação: 0.2455, Acurácia Validação: 0.9303
+Época 10, Perda Treino: 0.2399, Acurácia Treino: 0.9294
+Época 10, Perda Validação: 0.2465, Acurácia Validação: 0.9287
+Época 11, Perda Treino: 0.2257, Acurácia Treino: 0.9324
+Época 11, Perda Validação: 0.2196, Acurácia Validação: 0.9353
+Época 12, Perda Treino: 0.2144, Acurácia Treino: 0.9370
+Época 12, Perda Validação: 0.2136, Acurácia Validação: 0.9383
+Época 13, Perda Treino: 0.2045, Acurácia Treino: 0.9393
+Época 13, Perda Validação: 0.2167, Acurácia Validação: 0.9345
+Época 14, Perda Treino: 0.1985, Acurácia Treino: 0.9415
+Época 14, Perda Validação: 0.2119, Acurácia Validação: 0.9364
+Época 15, Perda Treino: 0.1887, Acurácia Treino: 0.9431
+Época 15, Perda Validação: 0.1998, Acurácia Validação: 0.9411
+Época 16, Perda Treino: 0.1825, Acurácia Treino: 0.9452
+Época 16, Perda Validação: 0.2093, Acurácia Validação: 0.9398
+Época 17, Perda Treino: 0.1792, Acurácia Treino: 0.9464
+Época 17, Perda Validação: 0.1755, Acurácia Validação: 0.9486
+Época 18, Perda Treino: 0.1756, Acurácia Treino: 0.9475
+Época 18, Perda Validação: 0.1896, Acurácia Validação: 0.9439
+Época 19, Perda Treino: 0.1684, Acurácia Treino: 0.9491
+Época 19, Perda Validação: 0.1809, Acurácia Validação: 0.9474
+Época 20, Perda Treino: 0.1654, Acurácia Treino: 0.9498
+Época 20, Perda Validação: 0.1757, Acurácia Validação: 0.9488
+Época 21, Perda Treino: 0.1617, Acurácia Treino: 0.9506
+Época 21, Perda Validação: 0.1791, Acurácia Validação: 0.9471
+Época 22, Perda Treino: 0.1407, Acurácia Treino: 0.9576
+Época 22, Perda Validação: 0.1537, Acurácia Validação: 0.9573
+Época 23, Perda Treino: 0.1398, Acurácia Treino: 0.9576
+Época 23, Perda Validação: 0.1555, Acurácia Validação: 0.9557
+Época 24, Perda Treino: 0.1397, Acurácia Treino: 0.9579
+Época 24, Perda Validação: 0.1547, Acurácia Validação: 0.9564
+Época 25, Perda Treino: 0.1394, Acurácia Treino: 0.9578
+Época 25, Perda Validação: 0.1535, Acurácia Validação: 0.9571
+Época 26, Perda Treino: 0.1386, Acurácia Treino: 0.9583
+Época 26, Perda Validação: 0.1548, Acurácia Validação: 0.9572
+Época 27, Perda Treino: 0.1383, Acurácia Treino: 0.9586
+Época 27, Perda Validação: 0.1548, Acurácia Validação: 0.9576
+Early stopping na época 27
+Modelo 8: Média Perda Treino: 0.1114, Média Acurácia Treino: 0.9663, Média Perda Validação: 0.1295, Média Acurácia Validação: 0.9642
+Tempo de treino: 0:04:40.762540
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.24 W
+______________________________________________________________________________________________________
+Treinando modelo 9/10
+Época 1, Perda Treino: 1.8566, Acurácia Treino: 0.4569
+Época 1, Perda Validação: 1.4670, Acurácia Validação: 0.6283
+Época 2, Perda Treino: 0.9169, Acurácia Treino: 0.7242
+Época 2, Perda Validação: 0.7630, Acurácia Validação: 0.7723
+Época 3, Perda Treino: 0.6450, Acurácia Treino: 0.8159
+Época 3, Perda Validação: 0.5680, Acurácia Validação: 0.8472
+Época 4, Perda Treino: 0.5034, Acurácia Treino: 0.8597
+Época 4, Perda Validação: 0.4607, Acurácia Validação: 0.8737
+Época 5, Perda Treino: 0.4129, Acurácia Treino: 0.8846
+Época 5, Perda Validação: 0.4175, Acurácia Validação: 0.8788
+Época 6, Perda Treino: 0.3510, Acurácia Treino: 0.9005
+Época 6, Perda Validação: 0.3486, Acurácia Validação: 0.9015
+Época 7, Perda Treino: 0.3106, Acurácia Treino: 0.9097
+Época 7, Perda Validação: 0.3147, Acurácia Validação: 0.9134
+Época 8, Perda Treino: 0.2796, Acurácia Treino: 0.9188
+Época 8, Perda Validação: 0.2879, Acurácia Validação: 0.9187
+Época 9, Perda Treino: 0.2593, Acurácia Treino: 0.9233
+Época 9, Perda Validação: 0.2944, Acurácia Validação: 0.9172
+Época 10, Perda Treino: 0.2407, Acurácia Treino: 0.9285
+Época 10, Perda Validação: 0.2533, Acurácia Validação: 0.9256
+Época 11, Perda Treino: 0.2259, Acurácia Treino: 0.9332
+Época 11, Perda Validação: 0.2209, Acurácia Validação: 0.9387
+Época 12, Perda Treino: 0.2134, Acurácia Treino: 0.9367
+Época 12, Perda Validação: 0.2734, Acurácia Validação: 0.9182
+Época 13, Perda Treino: 0.2069, Acurácia Treino: 0.9391
+Época 13, Perda Validação: 0.2095, Acurácia Validação: 0.9431
+Época 14, Perda Treino: 0.1958, Acurácia Treino: 0.9425
+Época 14, Perda Validação: 0.2048, Acurácia Validação: 0.9427
+Época 15, Perda Treino: 0.1893, Acurácia Treino: 0.9442
+Época 15, Perda Validação: 0.2064, Acurácia Validação: 0.9420
+Época 16, Perda Treino: 0.1826, Acurácia Treino: 0.9452
+Época 16, Perda Validação: 0.1929, Acurácia Validação: 0.9462
+Época 17, Perda Treino: 0.1751, Acurácia Treino: 0.9485
+Época 17, Perda Validação: 0.1824, Acurácia Validação: 0.9484
+Época 18, Perda Treino: 0.1693, Acurácia Treino: 0.9495
+Época 18, Perda Validação: 0.1743, Acurácia Validação: 0.9520
+Época 19, Perda Treino: 0.1665, Acurácia Treino: 0.9505
+Época 19, Perda Validação: 0.1776, Acurácia Validação: 0.9507
+Época 20, Perda Treino: 0.1619, Acurácia Treino: 0.9519
+Época 20, Perda Validação: 0.1890, Acurácia Validação: 0.9469
+Época 21, Perda Treino: 0.1571, Acurácia Treino: 0.9530
+Época 21, Perda Validação: 0.1662, Acurácia Validação: 0.9525
+Época 22, Perda Treino: 0.1541, Acurácia Treino: 0.9537
+Época 22, Perda Validação: 0.1717, Acurácia Validação: 0.9518
+Época 23, Perda Treino: 0.1498, Acurácia Treino: 0.9558
+Época 23, Perda Validação: 0.1704, Acurácia Validação: 0.9536
+Época 24, Perda Treino: 0.1484, Acurácia Treino: 0.9555
+Época 24, Perda Validação: 0.1616, Acurácia Validação: 0.9553
+Época 25, Perda Treino: 0.1444, Acurácia Treino: 0.9569
+Época 25, Perda Validação: 0.1577, Acurácia Validação: 0.9550
+Época 26, Perda Treino: 0.1404, Acurácia Treino: 0.9586
+Época 26, Perda Validação: 0.1543, Acurácia Validação: 0.9558
+Época 27, Perda Treino: 0.1382, Acurácia Treino: 0.9581
+Época 27, Perda Validação: 0.1749, Acurácia Validação: 0.9517
+Época 28, Perda Treino: 0.1364, Acurácia Treino: 0.9594
+Época 28, Perda Validação: 0.1474, Acurácia Validação: 0.9591
+Época 29, Perda Treino: 0.1344, Acurácia Treino: 0.9594
+Época 29, Perda Validação: 0.1393, Acurácia Validação: 0.9609
+Época 30, Perda Treino: 0.1322, Acurácia Treino: 0.9599
+Época 30, Perda Validação: 0.1494, Acurácia Validação: 0.9566
+Época 31, Perda Treino: 0.1288, Acurácia Treino: 0.9610
+Época 31, Perda Validação: 0.1609, Acurácia Validação: 0.9557
+Época 32, Perda Treino: 0.1292, Acurácia Treino: 0.9613
+Época 32, Perda Validação: 0.1472, Acurácia Validação: 0.9607
+Época 33, Perda Treino: 0.1266, Acurácia Treino: 0.9618
+Época 33, Perda Validação: 0.1464, Acurácia Validação: 0.9587
+Época 34, Perda Treino: 0.1108, Acurácia Treino: 0.9663
+Época 34, Perda Validação: 0.1287, Acurácia Validação: 0.9642
+Época 35, Perda Treino: 0.1094, Acurácia Treino: 0.9669
+Época 35, Perda Validação: 0.1286, Acurácia Validação: 0.9638
+Época 36, Perda Treino: 0.1096, Acurácia Treino: 0.9669
+Época 36, Perda Validação: 0.1284, Acurácia Validação: 0.9639
+Época 37, Perda Treino: 0.1089, Acurácia Treino: 0.9673
+Época 37, Perda Validação: 0.1299, Acurácia Validação: 0.9637
+Época 38, Perda Treino: 0.1086, Acurácia Treino: 0.9673
+Época 38, Perda Validação: 0.1296, Acurácia Validação: 0.9637
+Época 39, Perda Treino: 0.1087, Acurácia Treino: 0.9673
+Época 39, Perda Validação: 0.1281, Acurácia Validação: 0.9637
+Early stopping na época 39
+Modelo 9: Média Perda Treino: 0.1111, Média Acurácia Treino: 0.9664, Média Perda Validação: 0.1293, Média Acurácia Validação: 0.9641
+Tempo de treino: 0:06:43.714599
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 67.095 W
+______________________________________________________________________________________________________
+Treinando modelo 10/10
+Época 1, Perda Treino: 1.8583, Acurácia Treino: 0.4571
+Época 1, Perda Validação: 1.4829, Acurácia Validação: 0.6276
+Época 2, Perda Treino: 0.9154, Acurácia Treino: 0.7324
+Época 2, Perda Validação: 0.7246, Acurácia Validação: 0.8019
+Época 3, Perda Treino: 0.6254, Acurácia Treino: 0.8219
+Época 3, Perda Validação: 0.5424, Acurácia Validação: 0.8513
+Época 4, Perda Treino: 0.4725, Acurácia Treino: 0.8651
+Época 4, Perda Validação: 0.4139, Acurácia Validação: 0.8849
+Época 5, Perda Treino: 0.3790, Acurácia Treino: 0.8937
+Época 5, Perda Validação: 0.3467, Acurácia Validação: 0.9073
+Época 6, Perda Treino: 0.3202, Acurácia Treino: 0.9091
+Época 6, Perda Validação: 0.2957, Acurácia Validação: 0.9202
+Época 7, Perda Treino: 0.2792, Acurácia Treino: 0.9196
+Época 7, Perda Validação: 0.2677, Acurácia Validação: 0.9242
+Época 8, Perda Treino: 0.2516, Acurácia Treino: 0.9272
+Época 8, Perda Validação: 0.2715, Acurácia Validação: 0.9211
+Época 9, Perda Treino: 0.2328, Acurácia Treino: 0.9313
+Época 9, Perda Validação: 0.2263, Acurácia Validação: 0.9354
+Época 10, Perda Treino: 0.2168, Acurácia Treino: 0.9365
+Época 10, Perda Validação: 0.2409, Acurácia Validação: 0.9334
+Época 11, Perda Treino: 0.2052, Acurácia Treino: 0.9382
+Época 11, Perda Validação: 0.2131, Acurácia Validação: 0.9407
+Época 12, Perda Treino: 0.1972, Acurácia Treino: 0.9416
+Época 12, Perda Validação: 0.2081, Acurácia Validação: 0.9428
+Época 13, Perda Treino: 0.1861, Acurácia Treino: 0.9449
+Época 13, Perda Validação: 0.2413, Acurácia Validação: 0.9336
+Época 14, Perda Treino: 0.1795, Acurácia Treino: 0.9471
+Época 14, Perda Validação: 0.1959, Acurácia Validação: 0.9431
+Época 15, Perda Treino: 0.1750, Acurácia Treino: 0.9476
+Época 15, Perda Validação: 0.1780, Acurácia Validação: 0.9506
+Época 16, Perda Treino: 0.1697, Acurácia Treino: 0.9480
+Época 16, Perda Validação: 0.2066, Acurácia Validação: 0.9389
+Época 17, Perda Treino: 0.1647, Acurácia Treino: 0.9501
+Época 17, Perda Validação: 0.1729, Acurácia Validação: 0.9516
+Época 18, Perda Treino: 0.1605, Acurácia Treino: 0.9519
+Época 18, Perda Validação: 0.1670, Acurácia Validação: 0.9508
+Época 19, Perda Treino: 0.1565, Acurácia Treino: 0.9521
+Época 19, Perda Validação: 0.1598, Acurácia Validação: 0.9537
+Época 20, Perda Treino: 0.1542, Acurácia Treino: 0.9539
+Época 20, Perda Validação: 0.1544, Acurácia Validação: 0.9569
+Época 21, Perda Treino: 0.1488, Acurácia Treino: 0.9542
+Época 21, Perda Validação: 0.1749, Acurácia Validação: 0.9500
+Época 22, Perda Treino: 0.1455, Acurácia Treino: 0.9568
+Época 22, Perda Validação: 0.1632, Acurácia Validação: 0.9548
+Época 23, Perda Treino: 0.1451, Acurácia Treino: 0.9575
+Época 23, Perda Validação: 0.1507, Acurácia Validação: 0.9598
+Época 24, Perda Treino: 0.1414, Acurácia Treino: 0.9570
+Época 24, Perda Validação: 0.1554, Acurácia Validação: 0.9565
+Época 25, Perda Treino: 0.1407, Acurácia Treino: 0.9577
+Época 25, Perda Validação: 0.1515, Acurácia Validação: 0.9565
+Época 26, Perda Treino: 0.1387, Acurácia Treino: 0.9577
+Época 26, Perda Validação: 0.1674, Acurácia Validação: 0.9545
+Época 27, Perda Treino: 0.1374, Acurácia Treino: 0.9587
+Época 27, Perda Validação: 0.1414, Acurácia Validação: 0.9610
+Época 28, Perda Treino: 0.1344, Acurácia Treino: 0.9589
+Época 28, Perda Validação: 0.1601, Acurácia Validação: 0.9541
+Época 29, Perda Treino: 0.1338, Acurácia Treino: 0.9597
+Época 29, Perda Validação: 0.1424, Acurácia Validação: 0.9617
+Época 30, Perda Treino: 0.1317, Acurácia Treino: 0.9597
+Época 30, Perda Validação: 0.1440, Acurácia Validação: 0.9599
+Época 31, Perda Treino: 0.1289, Acurácia Treino: 0.9614
+Época 31, Perda Validação: 0.1347, Acurácia Validação: 0.9622
+Época 32, Perda Treino: 0.1298, Acurácia Treino: 0.9611
+Época 32, Perda Validação: 0.1499, Acurácia Validação: 0.9577
+Época 33, Perda Treino: 0.1240, Acurácia Treino: 0.9620
+Época 33, Perda Validação: 0.1624, Acurácia Validação: 0.9546
+Época 34, Perda Treino: 0.1239, Acurácia Treino: 0.9627
+Época 34, Perda Validação: 0.1270, Acurácia Validação: 0.9658
+Época 35, Perda Treino: 0.1225, Acurácia Treino: 0.9639
+Época 35, Perda Validação: 0.1568, Acurácia Validação: 0.9562
+Época 36, Perda Treino: 0.1221, Acurácia Treino: 0.9636
+Época 36, Perda Validação: 0.1320, Acurácia Validação: 0.9622
+Época 37, Perda Treino: 0.1198, Acurácia Treino: 0.9646
+Época 37, Perda Validação: 0.1295, Acurácia Validação: 0.9646
+Época 38, Perda Treino: 0.1203, Acurácia Treino: 0.9639
+Época 38, Perda Validação: 0.1542, Acurácia Validação: 0.9571
+Época 39, Perda Treino: 0.1027, Acurácia Treino: 0.9689
+Época 39, Perda Validação: 0.1194, Acurácia Validação: 0.9666
+Época 40, Perda Treino: 0.1018, Acurácia Treino: 0.9694
+Época 40, Perda Validação: 0.1212, Acurácia Validação: 0.9664
+Época 41, Perda Treino: 0.1021, Acurácia Treino: 0.9687
+Época 41, Perda Validação: 0.1214, Acurácia Validação: 0.9662
+Época 42, Perda Treino: 0.1015, Acurácia Treino: 0.9693
+Época 42, Perda Validação: 0.1198, Acurácia Validação: 0.9668
+Época 43, Perda Treino: 0.1016, Acurácia Treino: 0.9691
+Época 43, Perda Validação: 0.1212, Acurácia Validação: 0.9664
+Época 44, Perda Treino: 0.0998, Acurácia Treino: 0.9695
+Época 44, Perda Validação: 0.1191, Acurácia Validação: 0.9673
+Early stopping na época 44
+Modelo 10: Média Perda Treino: 0.1099, Média Acurácia Treino: 0.9668, Média Perda Validação: 0.1283, Média Acurácia Validação: 0.9645
+Tempo de treino: 0:07:36.490494
+FLOPs: 8054656.0
+Parâmetros: 24618.0
+Consumo de energia: 66.991 W
+************************************************************************************************
+O melhor modelo é o Modelo_1 com a maior média de acurácia de validação: 0.9688
+************************************************************************************************
+Tempo Médio de Treino: 424.10750929999995 segundos
+Consumo Médio de Energia: 66.0162597547325 W
+Média da Acurácia: 0.969
+Média da Precisão: 0.9688568982004746
+Média do Recall: 0.9685925827902366
+Média do F1 Score: 0.9686904733049382
+Média do Tempo de Teste: 1.2544276 segundos
