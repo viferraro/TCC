@@ -1,0 +1,526 @@
+______________________________________________________________________________________________________
+Treinando modelo 1/10
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 1, Perda Treino: 0.3555, Acurácia Treino: 0.8781
+Época 1, Perda Validação: 0.0835, Acurácia Validação: 0.9742
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 2, Perda Treino: 0.0639, Acurácia Treino: 0.9822
+Época 2, Perda Validação: 0.0855, Acurácia Validação: 0.9770
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 3, Perda Treino: 0.0431, Acurácia Treino: 0.9879
+Época 3, Perda Validação: 0.0386, Acurácia Validação: 0.9891
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 4, Perda Treino: 0.0347, Acurácia Treino: 0.9906
+Época 4, Perda Validação: 0.0403, Acurácia Validação: 0.9883
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 5, Perda Treino: 0.0292, Acurácia Treino: 0.9914
+Época 5, Perda Validação: 0.0393, Acurácia Validação: 0.9903
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 6, Perda Treino: 0.0246, Acurácia Treino: 0.9931
+Época 6, Perda Validação: 0.0585, Acurácia Validação: 0.9846
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 7, Perda Treino: 0.0224, Acurácia Treino: 0.9936
+Época 7, Perda Validação: 0.0296, Acurácia Validação: 0.9928
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 8, Perda Treino: 0.0187, Acurácia Treino: 0.9950
+Época 8, Perda Validação: 0.0323, Acurácia Validação: 0.9911
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 9, Perda Treino: 0.0167, Acurácia Treino: 0.9955
+Época 9, Perda Validação: 0.0411, Acurácia Validação: 0.9902
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 10, Perda Treino: 0.0134, Acurácia Treino: 0.9965
+Época 10, Perda Validação: 0.0452, Acurácia Validação: 0.9893
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 11, Perda Treino: 0.0135, Acurácia Treino: 0.9963
+Época 11, Perda Validação: 0.0436, Acurácia Validação: 0.9894
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 12, Perda Treino: 0.0049, Acurácia Treino: 0.9985
+Época 12, Perda Validação: 0.0260, Acurácia Validação: 0.9941
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 13, Perda Treino: 0.0027, Acurácia Treino: 0.9994
+Época 13, Perda Validação: 0.0252, Acurácia Validação: 0.9939
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 14, Perda Treino: 0.0020, Acurácia Treino: 0.9996
+Época 14, Perda Validação: 0.0265, Acurácia Validação: 0.9938
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 15, Perda Treino: 0.0018, Acurácia Treino: 0.9996
+Época 15, Perda Validação: 0.0238, Acurácia Validação: 0.9947
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 16, Perda Treino: 0.0015, Acurácia Treino: 0.9997
+Época 16, Perda Validação: 0.0281, Acurácia Validação: 0.9939
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 17, Perda Treino: 0.0013, Acurácia Treino: 0.9998
+Época 17, Perda Validação: 0.0239, Acurácia Validação: 0.9942
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 18, Perda Treino: 0.0013, Acurácia Treino: 0.9998
+Época 18, Perda Validação: 0.0253, Acurácia Validação: 0.9943
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 19, Perda Treino: 0.0011, Acurácia Treino: 0.9998
+Época 19, Perda Validação: 0.0250, Acurácia Validação: 0.9938
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 20, Perda Treino: 0.0007, Acurácia Treino: 0.9999
+Época 20, Perda Validação: 0.0239, Acurácia Validação: 0.9943
+Early stopping na época 20
+Modelo 1: Média Perda Treino: 0.0007, Média Acurácia Treino: 0.9999, Média Perda Validação: 0.0239, Média Acurácia Validação: 0.9943
+Tempo de treino: 0:10:41.019302
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.353 W
+______________________________________________________________________________________________________
+Treinando modelo 2/10
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 1, Perda Treino: 0.3715, Acurácia Treino: 0.8715
+Época 1, Perda Validação: 0.0863, Acurácia Validação: 0.9730
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 2, Perda Treino: 0.0680, Acurácia Treino: 0.9806
+Época 2, Perda Validação: 0.0521, Acurácia Validação: 0.9844
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 3, Perda Treino: 0.0444, Acurácia Treino: 0.9872
+Época 3, Perda Validação: 0.0425, Acurácia Validação: 0.9883
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 4, Perda Treino: 0.0339, Acurácia Treino: 0.9906
+Época 4, Perda Validação: 0.0420, Acurácia Validação: 0.9882
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 5, Perda Treino: 0.0288, Acurácia Treino: 0.9919
+Época 5, Perda Validação: 0.0384, Acurácia Validação: 0.9905
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 6, Perda Treino: 0.0262, Acurácia Treino: 0.9922
+Época 6, Perda Validação: 0.0595, Acurácia Validação: 0.9866
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 7, Perda Treino: 0.0228, Acurácia Treino: 0.9939
+Época 7, Perda Validação: 0.0291, Acurácia Validação: 0.9920
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 8, Perda Treino: 0.0188, Acurácia Treino: 0.9947
+Época 8, Perda Validação: 0.0413, Acurácia Validação: 0.9901
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 9, Perda Treino: 0.0161, Acurácia Treino: 0.9956
+Época 9, Perda Validação: 0.0371, Acurácia Validação: 0.9895
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 10, Perda Treino: 0.0155, Acurácia Treino: 0.9956
+Época 10, Perda Validação: 0.0449, Acurácia Validação: 0.9902
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 11, Perda Treino: 0.0152, Acurácia Treino: 0.9956
+Época 11, Perda Validação: 0.0420, Acurácia Validação: 0.9903
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 12, Perda Treino: 0.0036, Acurácia Treino: 0.9991
+Época 12, Perda Validação: 0.0269, Acurácia Validação: 0.9932
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 13, Perda Treino: 0.0022, Acurácia Treino: 0.9994
+Época 13, Perda Validação: 0.0263, Acurácia Validação: 0.9942
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 14, Perda Treino: 0.0017, Acurácia Treino: 0.9997
+Época 14, Perda Validação: 0.0271, Acurácia Validação: 0.9939
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 15, Perda Treino: 0.0015, Acurácia Treino: 0.9997
+Época 15, Perda Validação: 0.0273, Acurácia Validação: 0.9938
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 16, Perda Treino: 0.0013, Acurácia Treino: 0.9998
+Época 16, Perda Validação: 0.0289, Acurácia Validação: 0.9939
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 17, Perda Treino: 0.0013, Acurácia Treino: 0.9997
+Época 17, Perda Validação: 0.0276, Acurácia Validação: 0.9938
+Early stopping na época 17
+Modelo 2: Média Perda Treino: 0.0010, Média Acurácia Treino: 0.9998, Média Perda Validação: 0.0258, Média Acurácia Validação: 0.9940
+Tempo de treino: 0:09:02.957598
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.408 W
+______________________________________________________________________________________________________
+Treinando modelo 3/10
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 1, Perda Treino: 0.3470, Acurácia Treino: 0.8808
+Época 1, Perda Validação: 0.0839, Acurácia Validação: 0.9745
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 2, Perda Treino: 0.0657, Acurácia Treino: 0.9815
+Época 2, Perda Validação: 0.0751, Acurácia Validação: 0.9798
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 3, Perda Treino: 0.0436, Acurácia Treino: 0.9878
+Época 3, Perda Validação: 0.0446, Acurácia Validação: 0.9870
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 4, Perda Treino: 0.0358, Acurácia Treino: 0.9898
+Época 4, Perda Validação: 0.0432, Acurácia Validação: 0.9871
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 5, Perda Treino: 0.0274, Acurácia Treino: 0.9923
+Época 5, Perda Validação: 0.0316, Acurácia Validação: 0.9924
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 6, Perda Treino: 0.0242, Acurácia Treino: 0.9934
+Época 6, Perda Validação: 0.0521, Acurácia Validação: 0.9888
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 7, Perda Treino: 0.0214, Acurácia Treino: 0.9945
+Época 7, Perda Validação: 0.0371, Acurácia Validação: 0.9904
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 8, Perda Treino: 0.0170, Acurácia Treino: 0.9956
+Época 8, Perda Validação: 0.0329, Acurácia Validação: 0.9927
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 9, Perda Treino: 0.0187, Acurácia Treino: 0.9949
+Época 9, Perda Validação: 0.0325, Acurácia Validação: 0.9918
+No sudo access to read Intel's RAPL measurements from the energy_uj file.
+See issue: https://github.com/lfwa/carbontracker/issues/40
+Época 10, Perda Treino: 0.0046, Acurácia Treino: 0.9988
+Época 10, Perda Validação: 0.0262, Acurácia Validação: 0.9941
+Época 11, Perda Treino: 0.0031, Acurácia Treino: 0.9992
+Época 11, Perda Validação: 0.0257, Acurácia Validação: 0.9941
+Época 12, Perda Treino: 0.0026, Acurácia Treino: 0.9994
+Época 12, Perda Validação: 0.0245, Acurácia Validação: 0.9941
+Época 13, Perda Treino: 0.0021, Acurácia Treino: 0.9996
+Época 13, Perda Validação: 0.0249, Acurácia Validação: 0.9938
+Época 14, Perda Treino: 0.0019, Acurácia Treino: 0.9996
+Época 14, Perda Validação: 0.0267, Acurácia Validação: 0.9938
+Época 15, Perda Treino: 0.0016, Acurácia Treino: 0.9997
+Época 15, Perda Validação: 0.0232, Acurácia Validação: 0.9940
+Época 16, Perda Treino: 0.0014, Acurácia Treino: 0.9997
+Época 16, Perda Validação: 0.0260, Acurácia Validação: 0.9940
+Época 17, Perda Treino: 0.0015, Acurácia Treino: 0.9996
+Época 17, Perda Validação: 0.0258, Acurácia Validação: 0.9935
+Época 18, Perda Treino: 0.0014, Acurácia Treino: 0.9997
+Época 18, Perda Validação: 0.0290, Acurácia Validação: 0.9934
+Época 19, Perda Treino: 0.0014, Acurácia Treino: 0.9997
+Época 19, Perda Validação: 0.0280, Acurácia Validação: 0.9932
+Época 20, Perda Treino: 0.0008, Acurácia Treino: 0.9999
+Época 20, Perda Validação: 0.0250, Acurácia Validação: 0.9937
+Early stopping na época 20
+Modelo 3: Média Perda Treino: 0.0010, Média Acurácia Treino: 0.9998, Média Perda Validação: 0.0255, Média Acurácia Validação: 0.9939
+Tempo de treino: 0:10:39.222269
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.564 W
+______________________________________________________________________________________________________
+Treinando modelo 4/10
+Época 1, Perda Treino: 0.3772, Acurácia Treino: 0.8740
+Época 1, Perda Validação: 0.0967, Acurácia Validação: 0.9720
+Época 2, Perda Treino: 0.0678, Acurácia Treino: 0.9811
+Época 2, Perda Validação: 0.0474, Acurácia Validação: 0.9860
+Época 3, Perda Treino: 0.0437, Acurácia Treino: 0.9874
+Época 3, Perda Validação: 0.0653, Acurácia Validação: 0.9829
+Época 4, Perda Treino: 0.0389, Acurácia Treino: 0.9894
+Época 4, Perda Validação: 0.0418, Acurácia Validação: 0.9883
+Época 5, Perda Treino: 0.0298, Acurácia Treino: 0.9915
+Época 5, Perda Validação: 0.0401, Acurácia Validação: 0.9896
+Época 6, Perda Treino: 0.0258, Acurácia Treino: 0.9934
+Época 6, Perda Validação: 0.0453, Acurácia Validação: 0.9888
+Época 7, Perda Treino: 0.0231, Acurácia Treino: 0.9935
+Época 7, Perda Validação: 0.0382, Acurácia Validação: 0.9888
+Época 8, Perda Treino: 0.0204, Acurácia Treino: 0.9945
+Época 8, Perda Validação: 0.0301, Acurácia Validação: 0.9928
+Época 9, Perda Treino: 0.0168, Acurácia Treino: 0.9953
+Época 9, Perda Validação: 0.0663, Acurácia Validação: 0.9849
+Época 10, Perda Treino: 0.0155, Acurácia Treino: 0.9956
+Época 10, Perda Validação: 0.0359, Acurácia Validação: 0.9913
+Época 11, Perda Treino: 0.0145, Acurácia Treino: 0.9959
+Época 11, Perda Validação: 0.0341, Acurácia Validação: 0.9912
+Época 12, Perda Treino: 0.0123, Acurácia Treino: 0.9965
+Época 12, Perda Validação: 0.0385, Acurácia Validação: 0.9904
+Época 13, Perda Treino: 0.0035, Acurácia Treino: 0.9990
+Época 13, Perda Validação: 0.0247, Acurácia Validação: 0.9942
+Época 14, Perda Treino: 0.0020, Acurácia Treino: 0.9995
+Época 14, Perda Validação: 0.0264, Acurácia Validação: 0.9944
+Época 15, Perda Treino: 0.0015, Acurácia Treino: 0.9996
+Época 15, Perda Validação: 0.0241, Acurácia Validação: 0.9940
+Época 16, Perda Treino: 0.0014, Acurácia Treino: 0.9997
+Época 16, Perda Validação: 0.0250, Acurácia Validação: 0.9945
+Época 17, Perda Treino: 0.0013, Acurácia Treino: 0.9998
+Época 17, Perda Validação: 0.0264, Acurácia Validação: 0.9944
+Época 18, Perda Treino: 0.0012, Acurácia Treino: 0.9998
+Época 18, Perda Validação: 0.0267, Acurácia Validação: 0.9941
+Early stopping na época 18
+Modelo 4: Média Perda Treino: 0.0010, Média Acurácia Treino: 0.9998, Média Perda Validação: 0.0258, Média Acurácia Validação: 0.9940
+Tempo de treino: 0:09:34.648126
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.78 W
+______________________________________________________________________________________________________
+Treinando modelo 5/10
+Época 1, Perda Treino: 0.3716, Acurácia Treino: 0.8719
+Época 1, Perda Validação: 0.1003, Acurácia Validação: 0.9699
+Época 2, Perda Treino: 0.0678, Acurácia Treino: 0.9805
+Época 2, Perda Validação: 0.0582, Acurácia Validação: 0.9836
+Época 3, Perda Treino: 0.0479, Acurácia Treino: 0.9870
+Época 3, Perda Validação: 0.0393, Acurácia Validação: 0.9876
+Época 4, Perda Treino: 0.0363, Acurácia Treino: 0.9897
+Época 4, Perda Validação: 0.0374, Acurácia Validação: 0.9902
+Época 5, Perda Treino: 0.0281, Acurácia Treino: 0.9919
+Época 5, Perda Validação: 0.0417, Acurácia Validação: 0.9894
+Época 6, Perda Treino: 0.0263, Acurácia Treino: 0.9928
+Época 6, Perda Validação: 0.0347, Acurácia Validação: 0.9924
+Época 7, Perda Treino: 0.0230, Acurácia Treino: 0.9937
+Época 7, Perda Validação: 0.0582, Acurácia Validação: 0.9860
+Época 8, Perda Treino: 0.0190, Acurácia Treino: 0.9944
+Época 8, Perda Validação: 0.0453, Acurácia Validação: 0.9889
+Época 9, Perda Treino: 0.0165, Acurácia Treino: 0.9951
+Época 9, Perda Validação: 0.0416, Acurácia Validação: 0.9896
+Época 10, Perda Treino: 0.0151, Acurácia Treino: 0.9959
+Época 10, Perda Validação: 0.0402, Acurácia Validação: 0.9902
+Época 11, Perda Treino: 0.0050, Acurácia Treino: 0.9985
+Época 11, Perda Validação: 0.0261, Acurácia Validação: 0.9938
+Época 12, Perda Treino: 0.0029, Acurácia Treino: 0.9993
+Época 12, Perda Validação: 0.0263, Acurácia Validação: 0.9942
+Época 13, Perda Treino: 0.0024, Acurácia Treino: 0.9994
+Época 13, Perda Validação: 0.0283, Acurácia Validação: 0.9939
+Época 14, Perda Treino: 0.0022, Acurácia Treino: 0.9996
+Época 14, Perda Validação: 0.0259, Acurácia Validação: 0.9933
+Época 15, Perda Treino: 0.0019, Acurácia Treino: 0.9996
+Época 15, Perda Validação: 0.0266, Acurácia Validação: 0.9940
+Época 16, Perda Treino: 0.0016, Acurácia Treino: 0.9997
+Época 16, Perda Validação: 0.0279, Acurácia Validação: 0.9936
+Early stopping na época 16
+Modelo 5: Média Perda Treino: 0.0011, Média Acurácia Treino: 0.9998, Média Perda Validação: 0.0262, Média Acurácia Validação: 0.9939
+Tempo de treino: 0:08:31.194576
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.321 W
+______________________________________________________________________________________________________
+Treinando modelo 6/10
+Época 1, Perda Treino: 0.3538, Acurácia Treino: 0.8812
+Época 1, Perda Validação: 0.0750, Acurácia Validação: 0.9796
+Época 2, Perda Treino: 0.0699, Acurácia Treino: 0.9805
+Época 2, Perda Validação: 0.0707, Acurácia Validação: 0.9802
+Época 3, Perda Treino: 0.0455, Acurácia Treino: 0.9871
+Época 3, Perda Validação: 0.0451, Acurácia Validação: 0.9875
+Época 4, Perda Treino: 0.0354, Acurácia Treino: 0.9905
+Época 4, Perda Validação: 0.0518, Acurácia Validação: 0.9857
+Época 5, Perda Treino: 0.0302, Acurácia Treino: 0.9919
+Época 5, Perda Validação: 0.0484, Acurácia Validação: 0.9871
+Época 6, Perda Treino: 0.0256, Acurácia Treino: 0.9932
+Época 6, Perda Validação: 0.0410, Acurácia Validação: 0.9904
+Época 7, Perda Treino: 0.0221, Acurácia Treino: 0.9937
+Época 7, Perda Validação: 0.0536, Acurácia Validação: 0.9882
+Época 8, Perda Treino: 0.0181, Acurácia Treino: 0.9951
+Época 8, Perda Validação: 0.0359, Acurácia Validação: 0.9910
+Época 9, Perda Treino: 0.0178, Acurácia Treino: 0.9951
+Época 9, Perda Validação: 0.0398, Acurácia Validação: 0.9907
+Época 10, Perda Treino: 0.0157, Acurácia Treino: 0.9958
+Época 10, Perda Validação: 0.0312, Acurácia Validação: 0.9928
+Época 11, Perda Treino: 0.0133, Acurácia Treino: 0.9965
+Época 11, Perda Validação: 0.0302, Acurácia Validação: 0.9918
+Época 12, Perda Treino: 0.0130, Acurácia Treino: 0.9965
+Época 12, Perda Validação: 0.0353, Acurácia Validação: 0.9917
+Época 13, Perda Treino: 0.0116, Acurácia Treino: 0.9968
+Época 13, Perda Validação: 0.0354, Acurácia Validação: 0.9918
+Época 14, Perda Treino: 0.0119, Acurácia Treino: 0.9970
+Época 14, Perda Validação: 0.0328, Acurácia Validação: 0.9917
+Época 15, Perda Treino: 0.0097, Acurácia Treino: 0.9972
+Época 15, Perda Validação: 0.0352, Acurácia Validação: 0.9918
+Early stopping na época 15
+Modelo 6: Média Perda Treino: 0.0026, Média Acurácia Treino: 0.9994, Média Perda Validação: 0.0277, Média Acurácia Validação: 0.9935
+Tempo de treino: 0:07:58.237282
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.207 W
+______________________________________________________________________________________________________
+Treinando modelo 7/10
+Época 1, Perda Treino: 0.3633, Acurácia Treino: 0.8764
+Época 1, Perda Validação: 0.0958, Acurácia Validação: 0.9731
+Época 2, Perda Treino: 0.0639, Acurácia Treino: 0.9815
+Época 2, Perda Validação: 0.0556, Acurácia Validação: 0.9839
+Época 3, Perda Treino: 0.0437, Acurácia Treino: 0.9881
+Época 3, Perda Validação: 0.0445, Acurácia Validação: 0.9872
+Época 4, Perda Treino: 0.0340, Acurácia Treino: 0.9906
+Época 4, Perda Validação: 0.0390, Acurácia Validação: 0.9890
+Época 5, Perda Treino: 0.0271, Acurácia Treino: 0.9925
+Época 5, Perda Validação: 0.0328, Acurácia Validação: 0.9911
+Época 6, Perda Treino: 0.0243, Acurácia Treino: 0.9932
+Época 6, Perda Validação: 0.0453, Acurácia Validação: 0.9884
+Época 7, Perda Treino: 0.0224, Acurácia Treino: 0.9941
+Época 7, Perda Validação: 0.0605, Acurácia Validação: 0.9863
+Época 8, Perda Treino: 0.0178, Acurácia Treino: 0.9951
+Época 8, Perda Validação: 0.0485, Acurácia Validação: 0.9892
+Época 9, Perda Treino: 0.0169, Acurácia Treino: 0.9956
+Época 9, Perda Validação: 0.0398, Acurácia Validação: 0.9905
+Época 10, Perda Treino: 0.0050, Acurácia Treino: 0.9988
+Época 10, Perda Validação: 0.0278, Acurácia Validação: 0.9930
+Época 11, Perda Treino: 0.0034, Acurácia Treino: 0.9991
+Época 11, Perda Validação: 0.0298, Acurácia Validação: 0.9926
+Época 12, Perda Treino: 0.0026, Acurácia Treino: 0.9993
+Época 12, Perda Validação: 0.0288, Acurácia Validação: 0.9930
+Época 13, Perda Treino: 0.0023, Acurácia Treino: 0.9995
+Época 13, Perda Validação: 0.0325, Acurácia Validação: 0.9922
+Época 14, Perda Treino: 0.0021, Acurácia Treino: 0.9995
+Época 14, Perda Validação: 0.0274, Acurácia Validação: 0.9932
+Época 15, Perda Treino: 0.0018, Acurácia Treino: 0.9996
+Época 15, Perda Validação: 0.0280, Acurácia Validação: 0.9932
+Early stopping na época 15
+Modelo 7: Média Perda Treino: 0.0024, Média Acurácia Treino: 0.9994, Média Perda Validação: 0.0278, Média Acurácia Validação: 0.9935
+Tempo de treino: 0:07:58.355100
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 96.399 W
+______________________________________________________________________________________________________
+Treinando modelo 8/10
+Época 1, Perda Treino: 0.3832, Acurácia Treino: 0.8687
+Época 1, Perda Validação: 0.1068, Acurácia Validação: 0.9702
+Época 2, Perda Treino: 0.0675, Acurácia Treino: 0.9802
+Época 2, Perda Validação: 0.0572, Acurácia Validação: 0.9834
+Época 3, Perda Treino: 0.0427, Acurácia Treino: 0.9876
+Época 3, Perda Validação: 0.0421, Acurácia Validação: 0.9882
+Época 4, Perda Treino: 0.0363, Acurácia Treino: 0.9896
+Época 4, Perda Validação: 0.0499, Acurácia Validação: 0.9852
+Época 5, Perda Treino: 0.0304, Acurácia Treino: 0.9921
+Época 5, Perda Validação: 0.0411, Acurácia Validação: 0.9893
+Época 6, Perda Treino: 0.0259, Acurácia Treino: 0.9933
+Época 6, Perda Validação: 0.0447, Acurácia Validação: 0.9889
+Época 7, Perda Treino: 0.0221, Acurácia Treino: 0.9938
+Época 7, Perda Validação: 0.0320, Acurácia Validação: 0.9919
+Época 8, Perda Treino: 0.0193, Acurácia Treino: 0.9947
+Época 8, Perda Validação: 0.0406, Acurácia Validação: 0.9896
+Época 9, Perda Treino: 0.0164, Acurácia Treino: 0.9953
+Época 9, Perda Validação: 0.0366, Acurácia Validação: 0.9912
+Época 10, Perda Treino: 0.0161, Acurácia Treino: 0.9952
+Época 10, Perda Validação: 0.0367, Acurácia Validação: 0.9911
+Época 11, Perda Treino: 0.0134, Acurácia Treino: 0.9964
+Época 11, Perda Validação: 0.0415, Acurácia Validação: 0.9901
+Época 12, Perda Treino: 0.0043, Acurácia Treino: 0.9988
+Época 12, Perda Validação: 0.0268, Acurácia Validação: 0.9940
+Época 13, Perda Treino: 0.0024, Acurácia Treino: 0.9994
+Época 13, Perda Validação: 0.0259, Acurácia Validação: 0.9938
+Época 14, Perda Treino: 0.0020, Acurácia Treino: 0.9996
+Época 14, Perda Validação: 0.0278, Acurácia Validação: 0.9942
+Época 15, Perda Treino: 0.0017, Acurácia Treino: 0.9996
+Época 15, Perda Validação: 0.0279, Acurácia Validação: 0.9942
+Época 16, Perda Treino: 0.0014, Acurácia Treino: 0.9998
+Época 16, Perda Validação: 0.0310, Acurácia Validação: 0.9932
+Época 17, Perda Treino: 0.0013, Acurácia Treino: 0.9998
+Época 17, Perda Validação: 0.0272, Acurácia Validação: 0.9933
+Early stopping na época 17
+Modelo 8: Média Perda Treino: 0.0023, Média Acurácia Treino: 0.9995, Média Perda Validação: 0.0277, Média Acurácia Validação: 0.9935
+Tempo de treino: 0:09:02.009535
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.174 W
+______________________________________________________________________________________________________
+Treinando modelo 9/10
+Época 1, Perda Treino: 0.3743, Acurácia Treino: 0.8706
+Época 1, Perda Validação: 0.0900, Acurácia Validação: 0.9742
+Época 2, Perda Treino: 0.0691, Acurácia Treino: 0.9804
+Época 2, Perda Validação: 0.0632, Acurácia Validação: 0.9822
+Época 3, Perda Treino: 0.0463, Acurácia Treino: 0.9867
+Época 3, Perda Validação: 0.0414, Acurácia Validação: 0.9882
+Época 4, Perda Treino: 0.0368, Acurácia Treino: 0.9901
+Época 4, Perda Validação: 0.0533, Acurácia Validação: 0.9881
+Época 5, Perda Treino: 0.0286, Acurácia Treino: 0.9921
+Época 5, Perda Validação: 0.0499, Acurácia Validação: 0.9876
+Época 6, Perda Treino: 0.0240, Acurácia Treino: 0.9931
+Época 6, Perda Validação: 0.0356, Acurácia Validação: 0.9902
+Época 7, Perda Treino: 0.0224, Acurácia Treino: 0.9936
+Época 7, Perda Validação: 0.0386, Acurácia Validação: 0.9904
+Época 8, Perda Treino: 0.0197, Acurácia Treino: 0.9945
+Época 8, Perda Validação: 0.0305, Acurácia Validação: 0.9928
+Época 9, Perda Treino: 0.0168, Acurácia Treino: 0.9951
+Época 9, Perda Validação: 0.0458, Acurácia Validação: 0.9892
+Época 10, Perda Treino: 0.0159, Acurácia Treino: 0.9956
+Época 10, Perda Validação: 0.0365, Acurácia Validação: 0.9907
+Época 11, Perda Treino: 0.0136, Acurácia Treino: 0.9961
+Época 11, Perda Validação: 0.0412, Acurácia Validação: 0.9900
+Época 12, Perda Treino: 0.0116, Acurácia Treino: 0.9965
+Época 12, Perda Validação: 0.0331, Acurácia Validação: 0.9927
+Época 13, Perda Treino: 0.0034, Acurácia Treino: 0.9993
+Época 13, Perda Validação: 0.0276, Acurácia Validação: 0.9938
+Época 14, Perda Treino: 0.0023, Acurácia Treino: 0.9995
+Época 14, Perda Validação: 0.0253, Acurácia Validação: 0.9938
+Época 15, Perda Treino: 0.0019, Acurácia Treino: 0.9995
+Época 15, Perda Validação: 0.0251, Acurácia Validação: 0.9947
+Época 16, Perda Treino: 0.0015, Acurácia Treino: 0.9996
+Época 16, Perda Validação: 0.0250, Acurácia Validação: 0.9945
+Época 17, Perda Treino: 0.0014, Acurácia Treino: 0.9997
+Época 17, Perda Validação: 0.0271, Acurácia Validação: 0.9941
+Época 18, Perda Treino: 0.0012, Acurácia Treino: 0.9998
+Época 18, Perda Validação: 0.0277, Acurácia Validação: 0.9942
+Época 19, Perda Treino: 0.0012, Acurácia Treino: 0.9998
+Época 19, Perda Validação: 0.0282, Acurácia Validação: 0.9937
+Early stopping na época 19
+Modelo 9: Média Perda Treino: 0.0022, Média Acurácia Treino: 0.9995, Média Perda Validação: 0.0277, Média Acurácia Validação: 0.9935
+Tempo de treino: 0:10:06.258571
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 95.991 W
+______________________________________________________________________________________________________
+Treinando modelo 10/10
+Época 1, Perda Treino: 0.3716, Acurácia Treino: 0.8711
+Época 1, Perda Validação: 0.0641, Acurácia Validação: 0.9793
+Época 2, Perda Treino: 0.0656, Acurácia Treino: 0.9817
+Época 2, Perda Validação: 0.0542, Acurácia Validação: 0.9854
+Época 3, Perda Treino: 0.0447, Acurácia Treino: 0.9873
+Época 3, Perda Validação: 0.0394, Acurácia Validação: 0.9882
+Época 4, Perda Treino: 0.0363, Acurácia Treino: 0.9904
+Época 4, Perda Validação: 0.0411, Acurácia Validação: 0.9894
+Época 5, Perda Treino: 0.0319, Acurácia Treino: 0.9912
+Época 5, Perda Validação: 0.0459, Acurácia Validação: 0.9896
+Época 6, Perda Treino: 0.0265, Acurácia Treino: 0.9931
+Época 6, Perda Validação: 0.0399, Acurácia Validação: 0.9892
+Época 7, Perda Treino: 0.0222, Acurácia Treino: 0.9940
+Época 7, Perda Validação: 0.0950, Acurácia Validação: 0.9778
+Época 8, Perda Treino: 0.0080, Acurácia Treino: 0.9979
+Época 8, Perda Validação: 0.0256, Acurácia Validação: 0.9938
+Época 9, Perda Treino: 0.0050, Acurácia Treino: 0.9987
+Época 9, Perda Validação: 0.0242, Acurácia Validação: 0.9943
+Época 10, Perda Treino: 0.0040, Acurácia Treino: 0.9990
+Época 10, Perda Validação: 0.0262, Acurácia Validação: 0.9938
+Época 11, Perda Treino: 0.0033, Acurácia Treino: 0.9991
+Época 11, Perda Validação: 0.0270, Acurácia Validação: 0.9932
+Época 12, Perda Treino: 0.0032, Acurácia Treino: 0.9992
+Época 12, Perda Validação: 0.0265, Acurácia Validação: 0.9931
+Época 13, Perda Treino: 0.0026, Acurácia Treino: 0.9994
+Época 13, Perda Validação: 0.0265, Acurácia Validação: 0.9939
+Época 14, Perda Treino: 0.0018, Acurácia Treino: 0.9997
+Época 14, Perda Validação: 0.0247, Acurácia Validação: 0.9940
+Early stopping na época 14
+Modelo 10: Média Perda Treino: 0.0021, Média Acurácia Treino: 0.9995, Média Perda Validação: 0.0274, Média Acurácia Validação: 0.9935
+Tempo de treino: 0:07:26.856453
+FLOPs: 147910912.0
+Parâmetros: 23271114.0
+Consumo de energia: 96.541 W
+************************************************************************************************
+O melhor modelo é o Modelo_1 com a maior média de acurácia de validação: 0.9943
+************************************************************************************************
+Tempo Médio de Treino: 546.0758812 segundos
+Consumo Médio de Energia: 95.363365079922 W
+Média da Acurácia: 0.9953999999999998
+Média da Precisão: 0.9953521646925271
+Média do Recall: 0.9953462155534052
+Média do F1 Score: 0.9953473813524724
+Média do Tempo de Teste: 1.6999272 segundos
