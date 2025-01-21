@@ -1,0 +1,154 @@
+2025-01-21 16:55:02 - carbontracker version 2.0.1
+2025-01-21 16:55:02 - Only predicted and actual consumptions are multiplied by a PUE coefficient of 1.58 (Daniel Bizo, 2023, Uptime Institute Global Data Center Survey).
+2025-01-21 16:55:02 - The following components were found: GPU with device(s) NVIDIA GeForce RTX 3060.
+2025-01-21 16:55:02 - Monitoring thread started.
+2025-01-21 16:55:30 - Epoch 2:
+2025-01-21 16:55:30 - Duration: 0:00:27.40
+2025-01-21 16:55:30 - Average power usage (W) for gpu: 75.16678571428574
+2025-01-21 16:55:57 - Epoch 3:
+2025-01-21 16:55:57 - Duration: 0:00:27.43
+2025-01-21 16:55:57 - Average power usage (W) for gpu: 78.80533333333334
+2025-01-21 16:56:25 - Epoch 4:
+2025-01-21 16:56:25 - Duration: 0:00:28.08
+2025-01-21 16:56:25 - Average power usage (W) for gpu: 76.15103571428571
+2025-01-21 16:56:53 - Epoch 5:
+2025-01-21 16:56:53 - Duration: 0:00:27.62
+2025-01-21 16:56:53 - Average power usage (W) for gpu: 75.1345357142857
+2025-01-21 16:57:21 - Epoch 6:
+2025-01-21 16:57:21 - Duration: 0:00:27.77
+2025-01-21 16:57:21 - Average power usage (W) for gpu: 74.92453571428572
+2025-01-21 16:57:48 - Epoch 7:
+2025-01-21 16:57:48 - Duration: 0:00:27.69
+2025-01-21 16:57:48 - Average power usage (W) for gpu: 75.49366666666667
+2025-01-21 16:58:16 - Epoch 8:
+2025-01-21 16:58:16 - Duration: 0:00:27.53
+2025-01-21 16:58:16 - Average power usage (W) for gpu: 74.90810714285715
+2025-01-21 16:58:44 - Epoch 9:
+2025-01-21 16:58:44 - Duration: 0:00:27.76
+2025-01-21 16:58:44 - Average power usage (W) for gpu: 74.73714285714287
+2025-01-21 16:59:11 - Epoch 10:
+2025-01-21 16:59:11 - Duration: 0:00:27.69
+2025-01-21 16:59:11 - Average power usage (W) for gpu: 75.19792592592593
+2025-01-21 16:59:40 - Epoch 11:
+2025-01-21 16:59:40 - Duration: 0:00:28.15
+2025-01-21 16:59:40 - Average power usage (W) for gpu: 74.31079310344828
+2025-01-21 17:00:07 - Epoch 12:
+2025-01-21 17:00:07 - Duration: 0:00:27.34
+2025-01-21 17:00:07 - Average power usage (W) for gpu: 75.52855555555557
+2025-01-21 17:00:35 - Epoch 13:
+2025-01-21 17:00:35 - Duration: 0:00:27.61
+2025-01-21 17:00:35 - Average power usage (W) for gpu: 75.22911111111112
+2025-01-21 17:01:02 - Epoch 14:
+2025-01-21 17:01:02 - Duration: 0:00:27.87
+2025-01-21 17:01:02 - Average power usage (W) for gpu: 74.43585714285713
+2025-01-21 17:01:30 - Epoch 15:
+2025-01-21 17:01:30 - Duration: 0:00:27.54
+2025-01-21 17:01:30 - Average power usage (W) for gpu: 74.20178571428572
+2025-01-21 17:01:58 - Epoch 16:
+2025-01-21 17:01:58 - Duration: 0:00:27.70
+2025-01-21 17:01:58 - Average power usage (W) for gpu: 73.81210714285714
+2025-01-21 17:02:26 - Epoch 17:
+2025-01-21 17:02:26 - Duration: 0:00:28.45
+2025-01-21 17:02:26 - Average power usage (W) for gpu: 73.72078571428571
+2025-01-21 17:02:54 - Epoch 18:
+2025-01-21 17:02:54 - Duration: 0:00:27.82
+2025-01-21 17:02:54 - Average power usage (W) for gpu: 73.84875
+2025-01-21 17:03:22 - Epoch 19:
+2025-01-21 17:03:22 - Duration: 0:00:27.86
+2025-01-21 17:03:22 - Average power usage (W) for gpu: 73.70328571428571
+2025-01-21 17:03:50 - Epoch 20:
+2025-01-21 17:03:50 - Duration: 0:00:28.49
+2025-01-21 17:03:50 - Average power usage (W) for gpu: 74.0037142857143
+2025-01-21 17:04:18 - Epoch 21:
+2025-01-21 17:04:18 - Duration: 0:00:27.69
+2025-01-21 17:04:18 - Average power usage (W) for gpu: 73.79017857142857
+2025-01-21 17:04:46 - Epoch 22:
+2025-01-21 17:04:46 - Duration: 0:00:27.65
+2025-01-21 17:04:46 - Average power usage (W) for gpu: 73.52267857142859
+2025-01-21 17:05:14 - Epoch 23:
+2025-01-21 17:05:14 - Duration: 0:00:28.27
+2025-01-21 17:05:14 - Average power usage (W) for gpu: 73.24107142857143
+2025-01-21 17:05:41 - Epoch 24:
+2025-01-21 17:05:41 - Duration: 0:00:27.52
+2025-01-21 17:05:41 - Average power usage (W) for gpu: 73.51362962962963
+2025-01-21 17:06:09 - Epoch 25:
+2025-01-21 17:06:09 - Duration: 0:00:27.18
+2025-01-21 17:06:09 - Average power usage (W) for gpu: 73.32640740740742
+2025-01-21 17:06:36 - Epoch 26:
+2025-01-21 17:06:36 - Duration: 0:00:27.50
+2025-01-21 17:06:36 - Average power usage (W) for gpu: 72.38782142857144
+2025-01-21 17:06:36 - Epoch 26:
+2025-01-21 17:06:36 - Duration: 0:00:27.50
+2025-01-21 17:06:36 - Average power usage (W) for gpu: 72.38782142857144
+2025-01-21 17:07:04 - Epoch 28:
+2025-01-21 17:07:04 - Duration: 0:00:27.71
+2025-01-21 17:07:04 - Average power usage (W) for gpu: 74.9815
+2025-01-21 17:07:32 - Epoch 29:
+2025-01-21 17:07:32 - Duration: 0:00:28.19
+2025-01-21 17:07:32 - Average power usage (W) for gpu: 75.37421428571429
+2025-01-21 17:08:00 - Epoch 30:
+2025-01-21 17:08:00 - Duration: 0:00:27.81
+2025-01-21 17:08:00 - Average power usage (W) for gpu: 75.1766785714286
+2025-01-21 17:08:27 - Epoch 31:
+2025-01-21 17:08:27 - Duration: 0:00:27.50
+2025-01-21 17:08:27 - Average power usage (W) for gpu: 75.84488888888889
+2025-01-21 17:08:55 - Epoch 32:
+2025-01-21 17:08:55 - Duration: 0:00:27.76
+2025-01-21 17:08:55 - Average power usage (W) for gpu: 75.04324999999999
+2025-01-21 17:09:23 - Epoch 33:
+2025-01-21 17:09:23 - Duration: 0:00:28.41
+2025-01-21 17:09:23 - Average power usage (W) for gpu: 74.64874999999999
+2025-01-21 17:09:52 - Epoch 34:
+2025-01-21 17:09:52 - Duration: 0:00:28.14
+2025-01-21 17:09:52 - Average power usage (W) for gpu: 74.74360714285713
+2025-01-21 17:10:20 - Epoch 35:
+2025-01-21 17:10:20 - Duration: 0:00:28.16
+2025-01-21 17:10:20 - Average power usage (W) for gpu: 74.31379310344829
+2025-01-21 17:10:48 - Epoch 36:
+2025-01-21 17:10:48 - Duration: 0:00:28.34
+2025-01-21 17:10:48 - Average power usage (W) for gpu: 74.77975
+2025-01-21 17:11:15 - Epoch 37:
+2025-01-21 17:11:15 - Duration: 0:00:27.05
+2025-01-21 17:11:15 - Average power usage (W) for gpu: 75.94981481481481
+2025-01-21 17:11:43 - Epoch 38:
+2025-01-21 17:11:43 - Duration: 0:00:28.21
+2025-01-21 17:11:43 - Average power usage (W) for gpu: 74.83735714285714
+2025-01-21 17:12:11 - Epoch 39:
+2025-01-21 17:12:11 - Duration: 0:00:27.90
+2025-01-21 17:12:11 - Average power usage (W) for gpu: 75.00142857142858
+2025-01-21 17:12:39 - Epoch 40:
+2025-01-21 17:12:39 - Duration: 0:00:28.18
+2025-01-21 17:12:39 - Average power usage (W) for gpu: 75.23539285714287
+2025-01-21 17:13:07 - Epoch 41:
+2025-01-21 17:13:07 - Duration: 0:00:27.10
+2025-01-21 17:13:07 - Average power usage (W) for gpu: 75.66496296296296
+2025-01-21 17:13:34 - Epoch 42:
+2025-01-21 17:13:34 - Duration: 0:00:27.04
+2025-01-21 17:13:34 - Average power usage (W) for gpu: 75.45266666666667
+2025-01-21 17:14:01 - Epoch 43:
+2025-01-21 17:14:01 - Duration: 0:00:27.25
+2025-01-21 17:14:01 - Average power usage (W) for gpu: 74.4139642857143
+2025-01-21 17:14:28 - Epoch 44:
+2025-01-21 17:14:28 - Duration: 0:00:27.45
+2025-01-21 17:14:28 - Average power usage (W) for gpu: 74.38474074074074
+2025-01-21 17:14:56 - Epoch 45:
+2025-01-21 17:14:56 - Duration: 0:00:27.46
+2025-01-21 17:14:56 - Average power usage (W) for gpu: 73.67678571428573
+2025-01-21 17:15:23 - Epoch 46:
+2025-01-21 17:15:23 - Duration: 0:00:27.57
+2025-01-21 17:15:23 - Average power usage (W) for gpu: 73.905
+2025-01-21 17:15:51 - Epoch 47:
+2025-01-21 17:15:51 - Duration: 0:00:27.72
+2025-01-21 17:15:51 - Average power usage (W) for gpu: 73.13624999999999
+2025-01-21 17:16:18 - Epoch 48:
+2025-01-21 17:16:18 - Duration: 0:00:27.36
+2025-01-21 17:16:18 - Average power usage (W) for gpu: 73.71900000000001
+2025-01-21 17:16:18 - Epoch 48:
+2025-01-21 17:16:18 - Duration: 0:00:27.36
+2025-01-21 17:16:18 - Average power usage (W) for gpu: 73.71900000000001
+2025-01-21 17:16:46 - Epoch 50:
+2025-01-21 17:16:46 - Duration: 0:00:27.60
+2025-01-21 17:16:46 - Average power usage (W) for gpu: 74.7299642857143
+2025-01-21 17:16:46 - Carbon intensities (gCO2/kWh) fetched every 900 s at detected location Rio de Janeiro, Rio de Janeiro, BR: [np.float64(98.34824)]
+2025-01-21 17:16:46 - Average carbon intensity during training was 98.35 gCO2/kWh at detected location: Rio de Janeiro, Rio de Janeiro, BR.
+2025-01-21 17:16:46 - Monitoring thread ended.
