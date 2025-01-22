@@ -1,0 +1,10 @@
+2025-01-22 10:53:42 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 3060. CPU with device(s) cpu:0.
+2025-01-22 11:21:38 - CarbonTracker: Average carbon intensity during training was 98.35 gCO2/kWh at detected location: Rio de Janeiro, Rio de Janeiro, BR.
+2025-01-22 11:21:38 - CarbonTracker: 
+Actual consumption for 50 epoch(s):
+	Time:	0:29:06
+	Energy:	0.065715488050 kWh
+	CO2eq:	6.463002590422 g
+	This is equivalent to:
+	0.060120954330 km travelled by car
+2025-01-22 11:21:38 - CarbonTracker: Finished monitoring.
