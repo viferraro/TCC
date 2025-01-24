@@ -223,10 +223,10 @@ def treinar_e_validar(modelo, carregador_treino, carregador_validacao, criterio,
             print(f"Early stopping na época {epoca + 1}")
             break
 
-        # Salva o melhor modelo *desta execução* dentro da função treinar_e_validar
-        if early_stopping.best_loss is None or perda_validacao < early_stopping.best_loss:
-            early_stopping.best_loss = perda_validacao
-            torch.save(modelo.state_dict(), f'{diretorio_pai}/melhor_modelo_{i}.pth')
+        # # Salva o melhor modelo *desta execução* dentro da função treinar_e_validar
+        # if early_stopping.best_loss is None or perda_validacao < early_stopping.best_loss:
+        #     early_stopping.best_loss = perda_validacao
+        #     torch.save(modelo.state_dict(), f'{diretorio_pai}/melhor_modelo_{i}.pth')
 
     tempo_fim = datetime.now()
     tempo_treino = (tempo_fim - tempo_inicio)
