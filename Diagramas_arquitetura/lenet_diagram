@@ -1,0 +1,47 @@
+// LeNet Architecture
+digraph {
+	graph [rankdir=TB]
+	input [label="Entrada (28x28x1)" shape=box]
+	subgraph cluster_input {
+		rank=same
+	}
+	bloco_conv1 [label="Bloco Convolucional 1
+(Conv + ReLU)" shape=box]
+	input -> bloco_conv1
+	subgraph cluster_conv1 {
+		rank=same
+	}
+	bloco_conv2 [label="Bloco Convolucional 2
+(Conv + ReLU + MaxPool)" shape=box]
+	bloco_conv1 -> bloco_conv2
+	subgraph cluster_conv2 {
+		rank=same
+	}
+	dropout1 [label="Dropout (25%)" shape=box]
+	bloco_conv2 -> dropout1
+	subgraph cluster_dropout1 {
+		rank=same
+	}
+	flatten [label=Flatten shape=box]
+	dropout1 -> flatten
+	subgraph cluster_flatten {
+		rank=same
+	}
+	bloco_fc1 [label="Bloco Totalmente Conectado 1
+(Linear + ReLU)" shape=box]
+	flatten -> bloco_fc1
+	subgraph cluster_fc1 {
+		rank=same
+	}
+	dropout2 [label="Dropout (50%)" shape=box]
+	bloco_fc1 -> dropout2
+	subgraph cluster_dropout2 {
+		rank=same
+	}
+	bloco_fc2 [label="Bloco Totalmente Conectado 2
+(Softmax)" shape=box]
+	dropout2 -> bloco_fc2
+	subgraph cluster_fc2 {
+		rank=same
+	}
+}

@@ -1,0 +1,30 @@
+// AlexNet Architecture (Mais Simplificado)
+digraph {
+	graph [rankdir=TB]
+	input [label="Entrada (28x28x1)" shape=box]
+	conv1_2_block [label="Blocos Convolucionais 1 e 2
+(Conv + ReLU + MaxPool)
+(Conv + ReLU + MaxPool)" shape=box]
+	input -> conv1_2_block
+	conv3_4_block [label="Blocos Convolucionais 3 e 4
+(Conv + ReLU)
+(Conv + ReLU)" shape=box]
+	conv1_2_block -> conv3_4_block
+	conv5_block [label="Bloco Convolucional 5
+(Conv + ReLU + MaxPool)" shape=box]
+	conv3_4_block -> conv5_block
+	avgpool [label="Pooling
+(AdaptiveAvgPool2d)" shape=box]
+	conv5_block -> avgpool
+	flatten [label=Flatten shape=box]
+	avgpool -> flatten
+	fc1_block [label="Bloco Totalmente Conectado 1
+(Linear + ReLU + Dropout)" shape=box]
+	flatten -> fc1_block
+	fc2_block [label="Bloco Totalmente Conectado 2
+(Linear + ReLU + Dropout)" shape=box]
+	fc1_block -> fc2_block
+	fc3 [label="Camada Linear Final
+(Softmax)" shape=box]
+	fc2_block -> fc3
+}

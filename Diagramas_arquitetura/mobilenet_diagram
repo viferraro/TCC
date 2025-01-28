@@ -1,0 +1,17 @@
+// MobileNet Architecture (Simplificado)
+digraph {
+	graph [rankdir=TB]
+	input [label="Entrada (28x28x1)" shape=box]
+	camada_inicial [label="Camada Inicial
+(Conv + BN + ReLU)" shape=box]
+	input -> camada_inicial
+	bloco_ds1 [label="Bloco Depthwise Separable 1
+(Depthwise Conv + Pointwise Conv)" shape=box]
+	camada_inicial -> bloco_ds1
+	bloco_ds2 [label="Bloco Depthwise Separable 2
+(Depthwise Conv + Pointwise Conv)" shape=box]
+	bloco_ds1 -> bloco_ds2
+	pooling_classificacao [label="Subamostragem e Classificação
+(AdaptiveAvgPool2d + Flatten + Softmax)" shape=box]
+	bloco_ds2 -> pooling_classificacao
+}

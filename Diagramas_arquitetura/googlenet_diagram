@@ -1,0 +1,27 @@
+// GoogLeNet Architecture (Resumido)
+digraph {
+	graph [rankdir=TB]
+	input [label="Entrada (28x28x1)" shape=box]
+	camada_inicial [label="Camada Inicial
+(Conv2d + MaxPool2d)" shape=box]
+	input -> camada_inicial
+	bloco1 [label="Bloco 1
+(Conv2d + Conv2d + MaxPool2d)" shape=box]
+	camada_inicial -> bloco1
+	bloco2 [label="Bloco 2
+(Várias Conv2d + MaxPool2d)" shape=box]
+	bloco1 -> bloco2
+	inception13 [label="Bloco Inception 13" shape=box]
+	bloco2 -> inception13
+	bloco3 [label="Bloco 3
+(Várias Conv2d + MaxPool2d)" shape=box]
+	inception13 -> bloco3
+	inception21 [label="Bloco Inception 21" shape=box]
+	bloco3 -> inception21
+	inception_restante [label="Blocos Inception
+(30, 38, 46, 54, 62, 71, 79)" shape=box]
+	inception21 -> inception_restante
+	pooling_classificacao [label="Pooling e Classificação
+(AdaptiveAvgPool2d + Dropout + Softmax)" shape=box]
+	inception_restante -> pooling_classificacao
+}

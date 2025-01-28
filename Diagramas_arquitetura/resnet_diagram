@@ -1,0 +1,31 @@
+// ResNet Architecture (Com Informações nos Blocos)
+digraph {
+	graph [rankdir=TB]
+	input [label="Entrada (28x28x1)" shape=box]
+	camada_inicial [label="Camada Inicial
+(Conv2d + BN + ReLU + MaxPool2d)" shape=box]
+	input -> camada_inicial
+	bloco1 [label="Bloco 1 (x3)
+(BasicBlock:
+Conv2d + BN + ReLU
+Conv2d + BN + ReLU)" shape=box]
+	camada_inicial -> bloco1
+	bloco2 [label="Bloco 2 (x4)
+(BasicBlock:
+Conv2d + BN + ReLU
+Conv2d + BN + ReLU)" shape=box]
+	bloco1 -> bloco2
+	bloco3 [label="Bloco 3 (x6)
+(BasicBlock:
+Conv2d + BN + ReLU
+Conv2d + BN + ReLU)" shape=box]
+	bloco2 -> bloco3
+	bloco4 [label="Bloco 4 (x3)
+(BasicBlock:
+Conv2d + BN + ReLU
+Conv2d + BN + ReLU)" shape=box]
+	bloco3 -> bloco4
+	pooling_classificacao [label="Pooling e Classificação
+(AdaptiveAvgPool2d + Softmax)" shape=box]
+	bloco4 -> pooling_classificacao
+}
