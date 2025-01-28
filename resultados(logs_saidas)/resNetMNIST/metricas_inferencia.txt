@@ -1,0 +1,5 @@
+Acurácia: 0.9914
+Precisão: 0.9912955010987851
+Revocação: 0.9912643343844623
+Medida-F1: 0.9912580686209855
+Média do Tempo de Teste: 2.1356772 segundos

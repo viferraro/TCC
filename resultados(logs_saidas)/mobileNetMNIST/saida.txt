@@ -892,8 +892,8 @@ O melhor modelo é o Modelo_1 com a maior média de acurácia de validação: 0.
 ************************************************************************************************
 Tempo Médio de Treino: 424.10750929999995 segundos
 Consumo Médio de Energia: 66.0162597547325 W
-Média da Acurácia: 0.969
-Média da Precisão: 0.9688568982004746
-Média do Recall: 0.9685925827902366
-Média do F1 Score: 0.9686904733049382
+Acurácia: 0.969
+Precisão: 0.9688568982004746
+Recall: 0.9685925827902366
+F1 Score: 0.9686904733049382
 Média do Tempo de Teste: 1.2544276 segundos
