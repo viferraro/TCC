@@ -235,11 +235,6 @@ def treinar_e_validar(modelo, carregador_treino, carregador_validacao, criterio,
             perda = criterio(saidas, rotulos)
             perda.backward()
 
-            # # Monitorar os gradientes
-            # for nome, parametro in modelo.named_parameters():
-            #     if parametro.grad is not None:
-            #         print(f'Gradiente de {nome}: {parametro.grad.norm()}')
-
             torch.nn.utils.clip_grad_norm_(modelo.parameters(), max_norm=1.0)  # Aplicar gradient clipping
             otimizador.step()
             perda_acumulada += perda.item()
@@ -283,13 +278,7 @@ def treinar_e_validar(modelo, carregador_treino, carregador_validacao, criterio,
         if early_stopping.early_stop:
             print(f"Early stopping na época {epoca + 1}")
             break
-
-            # ***SALVA O MELHOR MODELO DENTRO DA FUNÇÃO treinar_e_validar***
-        if early_stopping.best_loss is None or perda_validacao < early_stopping.best_loss:
-            early_stopping.best_loss = perda_validacao
-            torch.save(modelo.state_dict(),
-                       f'{diretorio_pai}/melhor_modelo_{i}.pth')  # Salva o modelo com um nome identificador, usando o i do loop principal
-
+            
     tempo_fim = datetime.now()
     tempo_treino = (tempo_fim - tempo_inicio)
     tempos_treino.append(tempo_treino.total_seconds())
@@ -366,48 +355,61 @@ media_consumo_energia = np.mean(potencias_treino)
 print(f'Tempo Médio de Treino: {media_tempo_treino} segundos')
 print(f'Consumo Médio de Energia: {media_consumo_energia} W')
 
-# Inicializa listas para armazenar métricas de todas as inferências
-acuracias = []
-precisoes = []
-revocacoes = []
-pontuacoes_f1 = []
+# Seleciona o melhor modelo com base na maior acurácia de validação
+indice_melhor_modelo = medias_acuracia_validacao.index(max(medias_acuracia_validacao))
+melhor_modelo = modelos[indice_melhor_modelo]
+
+print('************************************************************************************************')
+print(f'O melhor modelo é o {nomes_modelos[indice_melhor_modelo]} com a maior média de acurácia de validação: {medias_acuracia_validacao[indice_melhor_modelo]:.4f}')
+print('************************************************************************************************')
+
+# Calcular a média dos tempos de treino e consumo de energia
+media_tempo_treino = np.mean(tempos_treino)
+media_consumo_energia = np.mean(potencias_treino)
+print(f'Tempo Médio de Treino: {media_tempo_treino} segundos')
+print(f'Consumo Médio de Energia: {media_consumo_energia} W')
+
+# Coleta as métricas de desempenho na primeira inferência
+y_verdadeiros = []
+y_previstos = []
+inicio_tempo_teste = datetime.now()
+melhor_modelo.eval()
+with torch.no_grad():
+    for dados in carregador_teste:
+        imagens, rotulos = dados[0].to(dispositivo), dados[1].to(dispositivo)
+        saidas = melhor_modelo(imagens)
+        _, previstos = torch.max(saidas.data, 1)
+        y_verdadeiros.extend(rotulos.cpu().numpy())
+        y_previstos.extend(previstos.cpu().numpy())
+fim_tempo_teste = datetime.now()
+
+# Calcula e imprime as métricas de desempenho da primeira inferência
+print(f'Acurácia: {accuracy_score(y_verdadeiros, y_previstos):.4f}')
+print(f'Precisão: {precision_score(y_verdadeiros, y_previstos, average="macro", zero_division=0):.4f}')
+print(f'Recall: {recall_score(y_verdadeiros, y_previstos, average="macro"):.4f}')
+print(f'F1 Score: {f1_score(y_verdadeiros, y_previstos, average="macro"):.4f}')
+print(f'Tempo de Inferência: {(fim_tempo_teste - inicio_tempo_teste).total_seconds()} segundos')
+
+# Inicializa listas para armazenar tempos de todas as inferências subsequentes
 tempos_teste = []
 
-# Realiza 10 inferências e armazena as métricas
+# Realiza 10 inferências para medir o tempo
 for i in range(10):
-    y_verdadeiros = []
-    y_previstos = []
     inicio_tempo_teste = datetime.now()
-    melhor_modelo.eval()
     with torch.no_grad():
         for dados in carregador_teste:
             imagens, rotulos = dados[0].to(dispositivo), dados[1].to(dispositivo)
             saidas = melhor_modelo(imagens)
             _, previstos = torch.max(saidas.data, 1)
-            y_verdadeiros.extend(rotulos.cpu().numpy())
-            y_previstos.extend(previstos.cpu().numpy())
     fim_tempo_teste = datetime.now()
-
-    # Calcula as métricas para a inferência atual
-    acuracias.append(accuracy_score(y_verdadeiros, y_previstos))
-    precisoes.append(precision_score(y_verdadeiros, y_previstos, average='macro', zero_division=0))
-    revocacoes.append(recall_score(y_verdadeiros, y_previstos, average='macro'))
-    pontuacoes_f1.append(f1_score(y_verdadeiros, y_previstos, average='macro'))
     tempos_teste.append((fim_tempo_teste - inicio_tempo_teste).total_seconds())
 
-# Calcula a média das métricas
-media_acuracia = sum(acuracias) / len(acuracias)
-media_precisao = sum(precisoes) / len(precisoes)
-media_revocacao = sum(revocacoes) / len(revocacoes)
-media_f1 = sum(pontuacoes_f1) / len(pontuacoes_f1)
+# Calcula a média do tempo de teste
 media_tempo_teste = sum(tempos_teste) / len(tempos_teste)
 
-# Imprime as médias das métricas
-print(f'Média da Acurácia: {media_acuracia}')
-print(f'Média da Precisão: {media_precisao}')
-print(f'Média do Recall: {media_revocacao}')
-print(f'Média do F1 Score: {media_f1}')
-print(f'Média do Tempo de Teste: {media_tempo_teste} segundos')
+# Imprime a média do tempo de teste
+print(f'Média do Tempo de Inferência: {media_tempo_teste:.4f} segundos')
+
 
 sys.stdout.close()
 sys.stdout = saida_padrao_original
@@ -425,12 +427,12 @@ plt.ylabel('Verdadeiros')
 plt.savefig(f'{diretorio_pai}/matriz_confusao.png')
 plt.close()
 
-# Salva as médias das métricas em um arquivo
-with open(f'{diretorio_pai}/metricas_medias_modelo.txt', 'w') as f:
-    f.write(f'Média da Acurácia: {media_acuracia}\n')
-    f.write(f'Média da Precisão: {media_precisao}\n')
-    f.write(f'Média do Recall: {media_revocacao}\n')
-    f.write(f'Média do F1 Score: {media_f1}\n')
+# Salva as métricas da inferencia em um arquivo
+with open(f'{diretorio_pai}/metricas_inferencia.txt', 'w') as f:
+    f.write(f'Acurácia: {accuracy_score(y_verdadeiros, y_previstos):.4f}\n')
+    f.write(f'Precisão: {precision_score(y_verdadeiros, y_previstos, average="macro", zero_division=0):.4f}\n')
+    f.write(f'Revocação: {recall_score(y_verdadeiros, y_previstos, average="macro", zero_division=0):.4f}\n')
+    f.write(f'Medida-F1: {f1_score(y_verdadeiros, y_previstos, average="macro", zero_division=0):.4f}\n')
     f.write(f'Média do Tempo de Teste: {media_tempo_teste} segundos\n')
 
 pynvml.nvmlShutdown()
