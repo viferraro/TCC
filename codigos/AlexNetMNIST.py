@@ -141,7 +141,6 @@ modelo = AlexNet().to(dispositivo)
 criterio = nn.CrossEntropyLoss()
 otimizador = optim.Adam(modelo.parameters(), lr=0.0001, weight_decay=1e-4)
 scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(otimizador, 'min', patience=3, factor=0.1)
-#early_stopping = EarlyStopping(patience=5, min_delta=0.001)
 
 print(modelo)
 
@@ -190,10 +189,10 @@ def treinar_e_validar(modelo, carregador_treino, carregador_validacao, criterio,
             perda = criterio(saidas, rotulos)
             perda.backward()
 
-            # # Monitorar os gradientes
-            # for nome, parametro in modelo.named_parameters():
-            #     if parametro.grad is not None:
-            #         print(f'Gradiente de {nome}: {parametro.grad.norm()}')
+            # Monitorar os gradientes
+            for nome, parametro in modelo.named_parameters():
+                if parametro.grad is not None:
+                    print(f'Gradiente de {nome}: {parametro.grad.norm()}')
 
             torch.nn.utils.clip_grad_norm_(modelo.parameters(), max_norm=1.0)  # Aplicar gradient clipping
             otimizador.step()
@@ -238,19 +237,12 @@ def treinar_e_validar(modelo, carregador_treino, carregador_validacao, criterio,
         if early_stopping.early_stop:
             print(f"Early stopping na época {epoca + 1}")
             break
-
-            # ***SALVA O MELHOR MODELO DENTRO DA FUNÇÃO treinar_e_validar***
-        if early_stopping.best_loss is None or perda_validacao < early_stopping.best_loss:
-            early_stopping.best_loss = perda_validacao
-            torch.save(modelo.state_dict(),
-                       f'{diretorio_pai}/melhor_modelo_{i}.pth')  # Salva o modelo com um nome identificador, usando o i do loop principal
-
+           
     tempo_fim = datetime.now()
     tempo_treino = (tempo_fim - tempo_inicio)
     tempos_treino.append(tempo_treino.total_seconds())
     tracker.epoch_end()
     return perda_treino, acuracia_treino, perda_validacao, acuracia_validacao, tempo_treino, consumo_energia
-
 
 # Treinamento e seleção do melhor modelo entre 10 candidatos
 numero_modelos = 10
